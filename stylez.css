@@ -3,6 +3,7 @@ body{
 }
 .border1{
   border-bottom: solid;
+  color: white;
   text-align: center;
   font-size: 35px;
   border-color: black;
