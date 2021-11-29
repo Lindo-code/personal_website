@@ -11,14 +11,14 @@
 .back{
         
   width: 100vw;
-  background-image: url("/Imagez/Bg7.jpg");
+  background-image: url("/Images/Bg7.jpg");
   background-size: cover;
   position:fixed;
         
 }
 .size{
         
-  background-image: url('/Imagez/P8.jpg');
+  background-image: url('/Images/P8.jpg');
   background-size: cover;
   border: solid;
   border-radius: 4px;
