@@ -1,33 +1,90 @@
 .border1{
         
-  background-image: url('./images/header.jpg');
-  background-size: cover;
-  padding: 80px; 
-  padding-bottom: 80px;
-  margin: -8px -8px -8px -8px;
-  color: white;
-  text-align: right;
-  font-size: 35px;
-  border-bottom: solid;
-  border-color: #2c3338;
-  font-family: Times New Roman;
-  font-size: 50px;
+  top:0;
+  width: 90%;
+  padding: 9em; 
+  margin: -1em;
+  border-bottom: 16px solid;
+  border-color: red;
   
 }
 .back{
         
-  background-image: url("./images/Bg7.jpg");
+  width: 100vw;
+  background-image: url("/Imagez/Bg7.jpg");
   background-size: cover;
+  position:fixed;
         
 }
 .size{
         
+  background-image: url('/Imagez/P8.jpg');
+  background-size: cover;
+  border: solid;
+  border-radius: 4px;
+  border-color: red;
+  position: fixed;
+  overflow: hidden;
+  top:-80px;
   width: 200px;
   height: 200px;
-  border: solid;
-  border-radius: 50%;
-  border-color: orange;
-  margin-right: 400px;
-  margin-left: 100px;
-  margin-top: -90px;
+  margin: 22em 40em 0 8em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+.about{
+        
+  border-radius: 10px;
+  background-color: #f0d8d8;
+  margin: -30vh 20vw 10vh 15vw;
+  padding:15vh 10vw 10vh 10vw;
+  width:50vw;
+  height:40vh;
+
+}
+.border2{
+        
+  border-radius:10px;
+  background-color:white;
+  margin: 8em 0 0 9em;
+  padding: 0 10em 0 10em;
+  width:500px;
+  height:250px;
+}
+.p1{
+        
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 1.8vw;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: -15em 0 0 31.5em;
+  background-color: #c0c0c0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on click */
+.dropdown-content a:hover {background-color: #ffdead;}
+
+/* Show the dropdown menu on click */
+.dropdown:hover .dropdown-content {display: block;}
