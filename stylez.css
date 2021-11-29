@@ -18,7 +18,7 @@
 }
 .size{
         
-  background-image: url("/main/images/P9.jpg");
+  background-image: url("images/P9.jpg");
   background-size: cover;
   border: solid;
   border-radius: 4px;
