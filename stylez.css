@@ -17,6 +17,16 @@
   position: fixed;
         
 }
+footer{
+        
+  width: 100vw;
+  padding: 2em; 
+  margin: 5em 0 0 -1em;
+  background-color: white;
+  border-top: solid;
+  border-color: red;
+  
+}
 @media all and (orientation: landscape), (min-width: 500px){
   .self-portrait{
         
