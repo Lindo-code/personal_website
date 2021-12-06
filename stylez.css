@@ -199,7 +199,7 @@
 }
 /*tablet portrait*/
 @media all and (orientation: portrait) and (min-width: 480px) {
-  .self-portrait-mobile{
+  .self-portrait{
         
     background-image: url("https://raw.githubusercontent.com/Lindo-code/personal_website/main/images/P9.jpg");
     background-size: cover;
