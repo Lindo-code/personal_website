@@ -1,8 +1,11 @@
+.container{
+  display: flex;
+}
 .top-body-divider{
         
   top:0;
   width: 76%;
-  padding: 9em; 
+  padding: 6em 20em 6em 6em; 
   margin: -1em;
   background-color: #2f4f4f;
   border-bottom: 16px solid;
@@ -22,7 +25,7 @@
         
   text-align: center;
   font-family: Times New Roman;
-  font-size: 1.8vw;
+  font-size: 1rem;
   
 }
 @media all and (orientation: landscape), (min-width: 720px){
@@ -39,7 +42,7 @@
     min-width: 160px;
     width: 16vw;
     height: 26vh;
-    margin: 44vh 40vw 0 6vw;
+    margin: 35vh 40vw 0 6vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   /* Dropdown Content (Hidden by Default) */
@@ -48,7 +51,7 @@
     display: inline-block;
     position: absolute;
     min-width: 15vw;
-    margin: -32vh 10vw -20vh 38vw;
+    margin: -22vh 10vw -20vh 38vw;
     background-color: #c0c0c0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -63,8 +66,8 @@
         
     border-radius: 10px;
     background-color: #d87878;
-    margin: -30vh 20vw 10vh 15vw;
-    padding:15vh 10vw 10vh 10vw;
+    margin: -20vh 20vw 10vh 15vw;
+    padding:15vh 10vw 5vh 10vw;
     width:50vw;
     height:40vh;
   
@@ -72,8 +75,8 @@
   .bottom-border{
     
     width: 100vw;
-    padding: 3em; 
-    margin: 4em 0 0 -1em;
+    padding: 10vw; 
+    margin: 10vw 0 0 -1em;
     background-color: black;
     border-top: solid;
     border-color: red;
@@ -91,10 +94,11 @@
     position: fixed;
     overflow: hidden;
     bottom:10vh;
-    min-width: 160px;
-    width: 26vw;
+    min-width: 140px;
+    min-height: 135px;
+    width: 24vw;
     height: 16vh;
-    margin: 30vh 20vw 5vh 36vw;
+    margin: 30vh 20vw 18vh 36vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
   }
@@ -104,7 +108,7 @@
     display: inline-block;
     position: absolute;
     min-width: 15vw;
-    margin: -16vh 10vw -20vh 38vw;
+    margin: -12vh 10vw -20vh 38vw;
     background-color: #c0c0c0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -118,8 +122,8 @@
         
     border-radius: 10px;
     background-color: #d87878;
-    margin: -13vh 20vw 10vh 15vw;
-    padding:15vh 10vw 10vh 10vw;
+    margin: -10vh 20vw 10vh 15vw;
+    padding: 15vh 10vw 1vh 10vw;
     width:50vw;
     height:40vh;
   
@@ -127,8 +131,8 @@
   .bottom-border{
         
     width: 100vw;
-    padding: 4em; 
-    margin: 4em 0 0 -1em;
+    padding: 20vh; 
+    margin: 10vh 0 0 -1em;
     background-color: black;
     border-top: solid;
     border-color: red;
