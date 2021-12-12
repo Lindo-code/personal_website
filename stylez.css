@@ -1,59 +1,60 @@
-.container{
+.container {
   display: flex;
 }
-.top-body-divider{
-        
-  top:0;
+.top-body-divider {
+
+  top: 0;
   width: 76%;
-  padding: 6em 20em 6em 6em; 
+  padding: 6em 20em 6em 6em;
   margin: -1em;
   background-color: #2f4f4f;
   border-bottom: 16px solid;
   border-color: red;
-  
+
 }
 
-.body-background{
-        
+.body-background {
+
   width: 100vw;
   background-image: url("https://raw.githubusercontent.com/Lindo-code/personal_website/main/images/Bg7.jpg");
+  background-color: black;
   background-size: cover;
   position: fixed;
-        
+
 }
-.p1{
-        
+.p1 {
+
   text-align: center;
-  font-family: Times New Roman;
+  font-family: "Railway", Times New Roman;
   font-size: 1rem;
-  
+
 }
+
 /*mobile portrait*/
 @media all and (orientation: portrait) and (max-width: 480px) {
-  .self-portrait{      
-    background-image: url("https://raw.githubusercontent.com/Lindo-code/personal_website/main/images/P9.jpg");
-    background-size: cover;
+  .self-portrait {
+
+    background-color: white;
     border: solid;
-    border-radius: 4px;
+    border-radius: 25px;
     border-color: red;
     position: fixed;
     overflow: hidden;
-    bottom:10vh;
-    min-width: 140px;
-    min-height: 135px;
+    bottom: 10vh;
+    min-width: 130px;
+    min-height: 125px;
     width: 24vw;
     height: 16vh;
-    margin: 30vh 20vw 3vh 28vw;
+    margin: 30vh 20vw 8vh 28vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
+
   }
-  /* Dropdown Content (Hidden by Default) */
   .nav-content {
-    
+
     display: inline-block;
     position: absolute;
     min-width: 15vw;
-    margin: -15vh 10vw -20vh 34vw;
+    margin: -20vh 10vw -20vh 34vw;
     background-color: #c0c0c0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -61,55 +62,53 @@
     text-align: center;
     font-family: Times New Roman;
     font-size: 0.9rem;
-  
+
   }
-  .intro{
-        
+  .intro {
+
     border-radius: 10px;
     background-color: #d87878;
-    margin: -10vh 20vw 10vh 15vw;
-    padding: 15vh 10vw 1vh 10vw;
-    width:50vw;
-    height:40vh;
-  
+    margin: -15vh 20vw 10vh 15vw;
+    padding: 8vh 10vw 4vh 10vw;
+    width: 50vw;
+    height: 40vh;
+
   }
-  .bottom-border{
-        
+  .bottom-border {
+
     width: 100vw;
-    padding: 20vh; 
-    margin: 10vh 0 0 -1em;
+    padding: 20vh;
+    margin: 15vh 0 0 -1em;
     background-color: black;
     border-top: solid;
     border-color: red;
-  
+
   }
 }
 /*mobile landscape*/
 @media all and (orientation: landscape) and (max-height: 480px) {
-  .self-portrait{
-        
-    background-image: url("https://raw.githubusercontent.com/Lindo-code/personal_website/main/images/P9.jpg");
-    background-size: cover;
+  .self-portrait {
+
+    background-color: white;
     border: solid;
-    border-radius: 4px;
+    border-radius: 10px;
     border-color: red;
     position: fixed;
     overflow: hidden;
-    top:-6vh;
-    min-width: 140px;
-    min-height: 135px;
+    top: -6vh;
+    min-width: 120px;
+    min-height: 115px;
     width: 24vh;
     height: 16vw;
-    margin: 36vh 10vw 0 4vw;
+    margin: 40vh 10vw 0 4vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
-  /* Dropdown Content (Hidden by Default) */
   .nav-content {
-    
+
     display: inline-block;
     position: absolute;
     min-width: 15vw;
-    margin: -40vh 10vw -20vh 38vw;
+    margin: -46vh 10vw -20vh 38vw;
     background-color: #c0c0c0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -117,51 +116,50 @@
     text-align: center;
     font-family: Times New Roman;
     font-size: 0.9rem;
-  
+
   }
-  
-  .intro{
-        
+
+  .intro {
+
     border-radius: 10px;
     background-color: #d87878;
-    margin: -32vh 15vw 10vh 15vw;
-    padding:10vh 10vw 10vh 10vw;
-    width:50vw;
-    height:40vh;
-  
+    margin: -38vh 15vw 10vh 15vw;
+    padding: 10vh 10vw 10vh 10vw;
+    width: 50vw;
+    height: 40vh;
+
   }
-  .bottom-border{
-    
+  .bottom-border {
+
     width: 100vw;
-    padding: 20em; 
-    margin: 0.3em 0 -1em -1em;
+    padding: 20em;
+    margin: 0.1em 0 -1em -1em;
     background-color: black;
     border-top: solid;
     border-color: red;
-  
+
   }
 }
 /*tablet landscape*/
-@media all and (orientation: landscape) and (min-height: 480px){
-  .self-portrait{
-        
-    background-image: url("https://raw.githubusercontent.com/Lindo-code/personal_website/main/images/P9.jpg");
-    background-size: cover;
+@media all and (orientation: landscape) and (min-height: 480px) {
+  .self-portrait {
+
+    background-color: white;
     border: solid;
-    border-radius: 4px;
+    border-radius: 10px;
     border-color: red;
     position: fixed;
     overflow: hidden;
-    top:-13vh;
-    min-width: 160px;
-    width: 16vw;
+    top: -13vh;
+    min-width: 130px;
+    min-height: 125px;
+    width: 15vw;
     height: 26vh;
-    margin: 35vh 40vw 0 4vw;
+    margin: 35vh 40vw 0 2vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
-  /* Dropdown Content (Hidden by Default) */
   .nav-content {
-    
+
     display: inline-block;
     position: absolute;
     min-width: 15vw;
@@ -173,57 +171,57 @@
     text-align: center;
     font-family: Times New Roman;
     font-size: 0.9rem;
-  
+
   }
-  
-  .intro{
-        
+
+  .intro {
+
     border-radius: 10px;
     background-color: #d87878;
-    margin: -20vh 20vw 10vh 15vw;
-    padding:15vh 10vw 5vh 10vw;
-    width:50vw;
-    height:40vh;
-  
+    margin: -19vh 20vw 10vh 15vw;
+    padding: 15vh 10vw 0 10vw;
+    width: 50vw;
+    height: 40vh;
+    text-align: center;
+
   }
-  .bottom-border{
-    
+  .bottom-border {
+
     width: 100vw;
-    padding: 10vw; 
+    padding: 10vw;
     margin: 5em 0 -1em -1em;
     background-color: black;
     border-top: solid;
     border-color: red;
-  
+
   }
 }
 /*tablet portrait*/
 @media all and (orientation: portrait) and (min-width: 480px) {
-  .self-portrait{
-        
-    background-image: url("https://raw.githubusercontent.com/Lindo-code/personal_website/main/images/P9.jpg");
-    background-size: cover;
+  .self-portrait {
+
+
+    background-color: white;
     border: solid;
     border-radius: 4px;
     border-color: red;
     position: fixed;
     overflow: hidden;
-    bottom:10vh;
+    bottom: 10vh;
     min-width: 140px;
     min-height: 135px;
     width: 24vw;
     height: 16vh;
-    margin: 30vh 20vw 18vh 36vw;
+    margin: 30vh 20vw 12vh 36vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
+
   }
-  /* Dropdown Content (Hidden by Default) */
   .nav-content {
-    
+
     display: inline-block;
     position: absolute;
     min-width: 15vw;
-    margin: -12vh 10vw -20vh 38vw;
+    margin: -12vh 10vw -20vh 36vw;
     background-color: #c0c0c0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -231,38 +229,40 @@
     text-align: center;
     font-family: Times New Roman;
     font-size: 0.9rem;
-  
+
   }
-  .intro{
-        
+  .intro {
+
     border-radius: 10px;
     background-color: #d87878;
-    margin: -10vh 20vw 10vh 15vw;
+    margin: -7vh 20vw 1vh 15vw;
     padding: 15vh 10vw 1vh 10vw;
-    width:50vw;
-    height:40vh;
-  
+    width: 50vw;
+    height: 40vh;
+
   }
-  .bottom-border{
-        
+  .bottom-border {
+
     width: 100vw;
-    padding: 5vh; 
+    padding: 5vh;
     margin: 15em 0 -1em -1em;
     background-color: black;
     border-top: solid;
     border-color: red;
-  
+
   }
 }
 /* Links inside the nav */
 .nav-content a {
-  
+
   color: black;
   padding: 4vh 8vw 4vh 8vw;
   border-radius: 10px;
   text-decoration: none;
   display: block;
-  
+
 }
 /* Change color of nav links on click */
-.nav-content a:hover {background-color: #ffdead;}
+.nav-content a:hover {
+  background-color: #ffdead;
+}
