@@ -29,23 +29,26 @@
   font-size: 1rem;
 
 }
-
+.hr_solid {
+  border: 0.5px solid black;
+}
+.h3 {
+  text-align: center;
+}
 /*mobile portrait*/
 @media all and (orientation: portrait) and (max-width: 480px) {
   .self-portrait {
 
     background-color: white;
     border: solid;
-    border-radius: 25px;
+    border-radius: 100px;
     border-color: red;
     position: fixed;
     overflow: hidden;
-    bottom: 10vh;
-    min-width: 130px;
-    min-height: 125px;
-    width: 24vw;
-    height: 16vh;
-    margin: 30vh 20vw 8vh 28vw;
+    bottom: 5vh;
+    width: 130px;
+    height: 125px;
+    margin: 30vh 10vw 2vh 5vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
   }
@@ -54,7 +57,7 @@
     display: inline-block;
     position: absolute;
     min-width: 15vw;
-    margin: -20vh 10vw -20vh 34vw;
+    margin: -20vh 10vw -20vh 32vw;
     background-color: #c0c0c0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -69,7 +72,7 @@
     border-radius: 10px;
     background-color: #d87878;
     margin: -15vh 20vw 10vh 15vw;
-    padding: 8vh 10vw 4vh 10vw;
+    padding: 8vh 10vw 8vh 10vw;
     width: 50vw;
     height: 40vh;
 
@@ -78,7 +81,7 @@
 
     width: 100vw;
     padding: 20vh;
-    margin: 15vh 0 0 -1em;
+    margin: 13vh 0 0 -1em;
     background-color: black;
     border-top: solid;
     border-color: red;
@@ -91,16 +94,14 @@
 
     background-color: white;
     border: solid;
-    border-radius: 10px;
+    border-radius: 100px;
     border-color: red;
     position: fixed;
     overflow: hidden;
     top: -6vh;
-    min-width: 120px;
-    min-height: 115px;
-    width: 24vh;
-    height: 16vw;
-    margin: 40vh 10vw 0 4vw;
+    width: 120px;
+    height: 115px;
+    margin: 40vh auto auto -10vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   .nav-content {
@@ -123,8 +124,8 @@
 
     border-radius: 10px;
     background-color: #d87878;
-    margin: -38vh 15vw 10vh 15vw;
-    padding: 10vh 10vw 10vh 10vw;
+    margin: -38vh 15vw 8vh 15vw;
+    padding: 4vh 10vw 20vh 10vw;
     width: 50vw;
     height: 40vh;
 
@@ -146,16 +147,14 @@
 
     background-color: white;
     border: solid;
-    border-radius: 10px;
+    border-radius: 100px;
     border-color: red;
     position: fixed;
     overflow: hidden;
     top: -13vh;
-    min-width: 130px;
-    min-height: 125px;
-    width: 15vw;
-    height: 26vh;
-    margin: 35vh 40vw 0 2vw;
+    width: 160px;
+    height: 155px;
+    margin: 32vh 40vw 0 -6vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   .nav-content {
@@ -183,6 +182,10 @@
     width: 50vw;
     height: 40vh;
     text-align: center;
+    font-family: 'Kumbh Sans',sans-serif;
+    /*font-family: "Quicksand", Times New Roman;*/
+    font-size: 1.3rem;
+
 
   }
   .bottom-border {
@@ -200,19 +203,16 @@
 @media all and (orientation: portrait) and (min-width: 480px) {
   .self-portrait {
 
-
     background-color: white;
     border: solid;
-    border-radius: 4px;
+    border-radius: 100px;
     border-color: red;
     position: fixed;
     overflow: hidden;
-    bottom: 10vh;
-    min-width: 140px;
-    min-height: 135px;
-    width: 24vw;
-    height: 16vh;
-    margin: 30vh 20vw 12vh 36vw;
+    top: -13vh;
+    width: 130px;
+    height: 125px;
+    margin: 35vh 5vw 0 -10vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
   }
@@ -244,8 +244,8 @@
   .bottom-border {
 
     width: 100vw;
-    padding: 5vh;
-    margin: 15em 0 -1em -1em;
+    padding: 6vh;
+    margin: 20vh 0 -1vh -1vw;
     background-color: black;
     border-top: solid;
     border-color: red;
