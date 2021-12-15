@@ -4,7 +4,7 @@
 body {
 
   width: 100%;
-  background-image: url('/Images/Bg7.jpg');
+  background-image: url('images/Bg7.jpg');
   /*make background-image cover screen*/
   background-size: cover;
   background-color: black;
