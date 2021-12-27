@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lindo-code: Cover Page</title>
+  <title> Lindo-code: Home </title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand|Sofia|Railway|Kumbh Sans">
-  <link rel="stylesheet" href="Css/Cover.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="Css/Home.css" type="text/css" media="all" />
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
   <!-- Chrome, Firefox OS and Opera -->
   <meta name="theme-color" content="#2f4f4f">
@@ -14,43 +14,58 @@
   <!-- iOS Safari -->
   <meta name="apple-mobile-web-app-status-bar-style" content="2f4f4f">
 </head>
-<body>
+<body class="body-background">
+
+  <nav class="navbar">
+    <div class="navbar_container">
+      <span id="navbartitle"> LINDO MATABANE </span>
+      <ul class="navbar_menu">
+        <li class="navbar_item">
+          <a href="Resume.html" class="navbar_links"> RESUME </a>
+        </li>
+        <li class="navbar_item">
+          <a href="Contact.html" class="navbar_links"> CONTACT </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <div class="container">
-    <div class="item header">
-      <div class="nested_container1">
-        <p id="p1">
-          <i class="fas fa-code"></i>
+    <div class=" item left"></div>
+    <div class="item main1">
+      <div class="nested_container2">
+        <div class="navbar_links">
+          <a href="Resume.html" id="link1"> RESUME </a>
+          <a href="Contact.html" id="link2"> CONTACT </a>
+        </div>
+        <h3>
+          HOME
+        </h3>
+        <img src="images/P9.jpg" alt="self-portrait" id="img1" />
+        <p>
         </p>
-        <p id="p2">
-
-        </p>
-        <p id="p2">
-
+        <p>
         </p>
       </div>
     </div>
-    <div class="item left"></div>
-    <div class="item main">
+    <div class="item main2">
       <div class="nested_container2">
-        <a href="Home.html">ENTER</a>
-        <h3>
-          HELLO, AND WELCOME
-        </h3>
-        <img src="images/P9.jpg" alt="self-portrait" />
+        <h4>
+          RESUME
+        </h4>
+        <hr class="hr_solid2" />
+        <img src="" alt="" id="img2" />
         <p>
-          My name is Lindo Matabane, get to know more about me: press the <span style="font-weight: bold;">ENTER</span> button above.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia similique voluptatibus nisi explicabo quaerat animi maxime hic quis iste tenetur laboriosam, libero cumque quasi optio quam iure aperiam, nostrum ab perferendis maiores minus amet. Vero voluptatibus magni beatae id nemo quidem, illo laborum libero similique unde repellendus quae suscipit sint.
         </p>
         <hr class="hr_solid" />
         <p>
-          <span style="font-weight: bold;">
-            OR<br>
-          </span>
-          Click the bottom icons.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nostrum culpa eveniet libero totam nemo, asperiores neque odio ratione esse reiciendis laboriosam, voluptas amet blanditiis ducimus earum ipsa eius, officia! Veritatis porro dolorem earum ducimus a, distinctio beatae. Velit ipsam omnis aperiam sapiente quidem, sed consectetur voluptatibus nesciunt voluptate hic.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia harum mollitia voluptatibus numquam amet veritatis iure, voluptatem dignissimos saepe nihil incidunt ducimus tempora facilis consequuntur similique suscipit repellendus corporis officiis, eaque quos veniam inventore itaque magnam? Totam debitis consequuntur illo minus? Officia dolores incidunt doloribus fugit cupiditate, id inventore, facere porro rem, eveniet cumque obcaecati laudantium!
         </p>
       </div>
     </div>
-    <div class="item right"></div>
-    <div class="item right2"></div>
+    <div class=" item right"></div>
+    <div class=" item right2"></div>
     <div class="item footer">
       <div class="nested_container1">
         <a href="https://github.com/Lindo-code">
@@ -65,5 +80,18 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript" charset="utf-8">
+    /*init();
+    function init() {
+      let query = window.matchMedia("screen and (max-width: 968px)");
+      if (query.matches) {
+        document.getElementById("link1").style.display = "block";
+        document.getElementById("link2").style.display = "block";
+      } else {
+        document.getElementById("link1").style.display = "none";
+        document.getElementById("link2").style.display = "none";
+      };
+    }*/
+  </script>
 </body>
 </html>
