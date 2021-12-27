@@ -21,16 +21,24 @@ body {
   width: 50%;
   border: 0.5px solid black;
 }
+.hr_solid2 {
+
+  width: 25%;
+  border: 0.5px solid red;
+}
 .container {
 
   display: grid;
   height: 100%;
-  grid-template-rows: 1fr auto auto;
-  grid-template-columns: auto 1fr auto auto;
+  grid-template-rows: 1fr auto auto auto;
+  grid-template-columns: auto 1fr auto auto auto auto;
   grid-template-areas:
   "l1 m1 r1 r2"
   "l1 m2 r1 r2"
-  "m3 m3 m3 m3";
+  "l1 m3 r1 r2"
+  "l1 m4 r1 r2"
+  "l1 m5 r1 r2"
+  "m6 m6 m6 m6";
 
 }
 .nested_container1 {
@@ -177,19 +185,50 @@ body {
   grid-area: m2;
   width: 85%;
   justify-self: center;
+  padding: 0 1em 0 1em;
+  border-radius: 10px;
+  background-color: black;
+  z-index: 1001;
+
+}
+.main3 {
+
+  grid-area: m3;
+  width: 85%;
+  justify-self: center;
+  padding: 1em 1em 0 1em;
+  border-radius: 10px;
+  background-color: #ffe4c4;
+  z-index: 1001;
+
+}
+.main4 {
+
+  grid-area: m4;
+  justify-self: center;
+  width: 85%;
+  padding: 0 1em 0 1em;
+  border-radius: 10px;
+  background-color: black;
+  z-index: 1001;
+
+}
+.main5 {
+
+  grid-area: m5;
+  width: 85%;
+  justify-self: center;
   padding: 1em 1em 0 1em;
   margin-bottom: 2em;
   border-radius: 10px;
   background-color: #ffe4c4;
   text-align: center;
-  font-family: 'Kumbh Sans',sans-serif;
   z-index: 1001;
-  margin-top: 15px;
 
 }
 .footer {
 
-  grid-area: m3;
+  grid-area: m6;
   border-top: 10px solid red;
   background-color: black;
   padding: 2em;
@@ -222,6 +261,15 @@ body {
   justify-items: left;
   justify-self: left;
   text-align: left;
+  font-family: 'Kumbh Sans',sans-serif;
+  color: black;
+
+}
+#h_color {
+
+  text-align: center;
+  color: #a8e6ce;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 .nested_container2 > ol {
