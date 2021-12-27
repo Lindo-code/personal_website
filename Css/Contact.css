@@ -19,22 +19,16 @@ body {
 .hr_solid {
 
   width: 50%;
-  border: 0.5px solid red;
-}
-.hr_solid2 {
-
-  width: 25%;
-  border: 0.5px solid red;
+  border: 0.5px solid black;
 }
 .container {
 
   display: grid;
   height: 100%;
-  grid-template-rows: 1fr auto auto;
+  grid-template-rows: 1fr auto;
   grid-template-columns: auto 1fr auto auto;
   grid-template-areas:
   "l1 m1 r1 r2"
-  "l1 m2 r1 r2"
   "m3 m3 m3 m3";
 
 }
@@ -56,11 +50,11 @@ body {
 .nested_container2 {
 
   display: grid;
-  grid-template-rows: 6, auto;
+  grid-template-rows: 5, auto;
   justify-items: center;
 
 }
-.nested_container2 > #img1 {
+.nested_container2 > img {
 
   border: 3px solid red;
   border-radius: 100px;
@@ -145,7 +139,6 @@ body {
   padding: 0 1rem;
   height: 100%;
   font-family: 'Kumbh Sans',sans-serif;
-  z-index: 1000;
 
 }
 .navbar_links > a {
@@ -172,9 +165,17 @@ body {
   grid-area: r2;
 
 }
-.main1 {
+.nested_container2 > ul {
 
-  width: 60%;
+  justify-items: left;
+  justify-self: left;
+  text-align: left;
+
+}
+.main {
+
+  grid-area: m1;
+  width: 75%;
   justify-self: center;
   padding: 1em 1em 0 1em;
   margin-top: -5em;
@@ -182,21 +183,8 @@ body {
   background-color: #d87878;
   text-align: center;
   font-family: 'Kumbh Sans',sans-serif;
-  z-index: 1002;
-
-}
-.main2 {
-
-  width: 85%;
-  justify-self: center;
-  padding: 1em 1em 0 1em;
-  margin-bottom: 2em;
-  border-radius: 10px;
-  background-color: black;
-  text-align: center;
-  color: #a8e6ce;
-  font-family: 'Kumbh Sans',sans-serif;
   z-index: 1001;
+  margin-bottom: 2em;
 
 }
 .footer {
@@ -210,6 +198,7 @@ body {
 .nested_container1 > a {
 
   color: white;
+  /*text-shadow: 1px 1px 1px #ccc;*/
   font-size: 1.5rem;
   margin-top: -1em;
 
@@ -281,12 +270,13 @@ a:hover {
     transform: translate(5%, 20%);
 
   }
-  .main1 {
+  .main {
 
-    width: 75%;
+    width: 85%;
     justify-self: center;
-    padding: 0;
-    margin-top: -5em;
+    padding: 1em 1em 0 1em;
+    margin-top: -2em;
+    margin-bottom: 2em;
     border-radius: 10px;
     background-color: #d87878;
     text-align: center;
