@@ -89,6 +89,7 @@ body {
   justify-items: center;
   align-items: center;
   grid-column-gap: 25px;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 .nested_container4 {
@@ -397,6 +398,7 @@ a:hover {
     grid-template-columns: repeat(1,auto);
     justify-items: center;
     grid-row-gap: 10px;
+    font-family: 'Kumbh Sans',sans-serif;
 
   }
   .hr_solid4 {
@@ -451,6 +453,7 @@ a:hover {
   #add_line {
 
     grid-row: 2;
+    font-family: 'Kumbh Sans',sans-serif;
 
   }
   .hr_solid3 {
