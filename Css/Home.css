@@ -18,12 +18,22 @@ body {
 }
 .hr_solid {
 
-  width: 50%;
+  width: 80%;
   border: 0.5px solid red;
 }
 .hr_solid2 {
 
   width: 25%;
+  border: 0.5px solid red;
+}
+.hr_solid3 {
+
+  height: 90%;
+  border: 0.5px solid red;
+}
+.hr_solid4 {
+
+  height: 90%;
   border: 0.5px solid red;
 }
 .container {
@@ -35,7 +45,8 @@ body {
   grid-template-areas:
   "l1 m1 r1 r2"
   "l1 m2 r1 r2"
-  "m3 m3 m3 m3";
+  "l1 m3 r1 r2"
+  "m4 m4 m4 m4";
 
 }
 .nested_container1 {
@@ -60,6 +71,21 @@ body {
   justify-items: center;
 
 }
+.nested_container3 {
+
+  display: grid;
+  grid-template-rows: 6, auto;
+  grid-template-columns: repeat(3, auto);
+  justify-items: center;
+  align-items: center;
+  grid-column-gap: 10px;
+
+}
+#contrast {
+
+  color: white;
+
+}
 .nested_container2 > #img1 {
 
   border: 3px solid red;
@@ -67,7 +93,13 @@ body {
   width: 130px;
   height: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  background-color: #2f4f4f;
+  background-color: white;
+
+}
+#img2 {
+
+  width: 280px;
+  height: 280px;
 
 }
 /*.item {
@@ -174,10 +206,11 @@ body {
 }
 .main1 {
 
-  width: 60%;
+  grid-area: m1;
+  width: 65%;
   justify-self: center;
   padding: 1em 1em 0 1em;
-  margin-top: -5em;
+  margin-top: -6em;
   border-radius: 10px;
   background-color: #d87878;
   text-align: center;
@@ -185,8 +218,15 @@ body {
   z-index: 1002;
 
 }
+.line {
+
+  margin-top: 2em;
+  grid-area: m2;
+
+}
 .main2 {
 
+  grid-area: m3;
   width: 85%;
   justify-self: center;
   padding: 1em 1em 0 1em;
@@ -201,7 +241,7 @@ body {
 }
 .footer {
 
-  grid-area: m3;
+  grid-area: m4;
   border-top: 10px solid red;
   background-color: black;
   padding: 2em;
@@ -231,6 +271,38 @@ a:hover {
 }
 @media screen and (max-width: 968px) {
 
+  .nested_container3 {
+
+    display: grid;
+    grid-template-rows: 6, auto;
+    grid-template-columns: repeat(1,auto);
+    justify-items: center;
+
+  }
+  #img2 {
+
+    width: 210px;
+    height: 210px;
+
+  }
+  .hr_solid {
+
+    width: 50%;
+    border: 0.5px solid red;
+
+  }
+  .hr_solid3 {
+
+    height: 0;
+    width: 70%;
+    border: 0.5px solid red;
+  }
+  .hr_solid4 {
+
+    height: 0;
+    border: 0.5px solid transparent;
+
+  }
   .navbar_container {
 
     display: flex;
