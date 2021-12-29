@@ -21,6 +21,21 @@ body {
   width: 50%;
   border: 0.5px solid black;
 }
+.hr_solid2 {
+
+  width: 25%;
+  border: 0.5px solid red;
+}
+.hr_solid3 {
+
+  height: 90%;
+  border: 0.5px solid red;
+}
+.hr_solid4 {
+
+  height: 90%;
+  border: 0.5px solid red;
+}
 .container {
 
   display: grid;
@@ -29,6 +44,7 @@ body {
   grid-template-columns: auto 1fr auto auto;
   grid-template-areas:
   "l1 m1 r1 r2"
+  "l1 m2 r1 r2"
   "m3 m3 m3 m3";
 
 }
@@ -54,6 +70,21 @@ body {
   justify-items: center;
 
 }
+.nested_container3 {
+
+  display: grid;
+  grid-template-rows: 6, auto;
+  grid-template-columns: repeat(2, auto);
+  justify-items: center;
+  align-items: center;
+
+}
+#img2 {
+
+  width: 280px;
+  height: 280px;
+
+}
 .nested_container2 > img {
 
   border: 3px solid red;
@@ -61,7 +92,7 @@ body {
   width: 130px;
   height: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  background-color: #2f4f4f;
+  background-color: white;
 
 }
 /*.item {
@@ -165,17 +196,10 @@ body {
   grid-area: r2;
 
 }
-.nested_container2 > ul {
-
-  justify-items: left;
-  justify-self: left;
-  text-align: left;
-
-}
 .main {
 
   grid-area: m1;
-  width: 75%;
+  width: 45%;
   justify-self: center;
   padding: 1em 1em 0 1em;
   margin-top: -5em;
@@ -183,6 +207,20 @@ body {
   background-color: #d87878;
   text-align: center;
   font-family: 'Kumbh Sans',sans-serif;
+  z-index: 1001;
+
+}
+.main2 {
+
+  grid-area: m2;
+  width: 75%;
+  justify-self: center;
+  padding: 1em 1em 0 1em;
+  border-radius: 10px;
+  background-color: black;
+  text-align: left;
+  font-family: 'Kumbh Sans',sans-serif;
+  color: #a8e6ce;
   z-index: 1001;
   margin-bottom: 2em;
 
@@ -220,6 +258,20 @@ a:hover {
 }
 @media screen and (max-width: 968px) {
 
+  .nested_container3 {
+
+    display: grid;
+    grid-template-rows: 6, auto;
+    grid-template-columns: repeat(1,auto);
+    justify-items: center;
+
+  }
+  #img2 {
+
+    width: 200px;
+    height: 200px;
+
+  }
   .navbar_container {
 
     display: flex;
@@ -276,7 +328,6 @@ a:hover {
     justify-self: center;
     padding: 1em 1em 0 1em;
     margin-top: -2em;
-    margin-bottom: 2em;
     border-radius: 10px;
     background-color: #d87878;
     text-align: center;
