@@ -81,6 +81,21 @@ body {
   grid-column-gap: 10px;
 
 }
+p {
+
+  text-align: left;
+
+}
+ul {
+
+  text-align: left;
+
+}
+ol {
+
+  text-align: left;
+
+}
 #contrast {
 
   color: white;
