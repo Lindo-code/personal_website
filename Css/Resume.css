@@ -20,27 +20,43 @@ body {
 
   width: 20%;
   border: 0.5px solid black;
+  visibility: hidden;
+
 }
 .hr_solid2 {
 
   width: 25%;
   border: 0.5px solid red;
+  visibility: hidden;
+
 }
 .hr_solid3 {
 
   height: 70%;
   border: 1px solid black;
+  visibility: hidden;
+
 }
 .hr_solid4 {
 
   height: 70%;
   border: 1px solid black;
+  visibility: hidden;
 
 }
 .hr_solid5 {
 
   height: 70%;
   border: 1px solid black;
+  visibility: hidden;
+
+}
+.hr_solid6 {
+
+  width: 70%;
+  height: 0;
+  border: 0.6px solid red;
+
 }
 .container {
 
@@ -56,7 +72,9 @@ body {
   "l1 m5 r1 r2"
   "l1 m6 r1 r2"
   "l1 m7 r1 r2"
-  "m8 m8 m8 m8";
+  "l1 m8 r1 r2"
+  "l1 m9 r1 r2"
+  "m10 m10 m10 m10";
 
 }
 .nested_container1 {
@@ -96,6 +114,15 @@ body {
 
   display: grid;
   grid-template-rows: 6, auto;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  align-items: center;
+
+}
+.nested_line {
+
+  display: grid;
+  grid-template-rows: 2, auto;
   grid-template-columns: auto;
   justify-items: center;
   align-items: center;
@@ -320,9 +347,33 @@ body {
   z-index: 1001;
 
 }
-.footer {
+.main8 {
 
   grid-area: m8;
+  justify-self: center;
+  width: 85%;
+  padding: 0 1em 0 1em;
+  border-radius: 10px;
+  background-color: black;
+  z-index: 1001;
+
+}
+.main9 {
+
+  grid-area: m9;
+  width: 85%;
+  justify-self: center;
+  padding: 1em 1em 0 1em;
+  margin-bottom: 2em;
+  border-radius: 10px;
+  background-color: #ffe4c4;
+  text-align: center;
+  z-index: 1001;
+
+}
+.footer {
+
+  grid-area: m10;
   border-top: 10px solid red;
   background-color: black;
   padding: 2em;
@@ -404,7 +455,8 @@ a:hover {
   .hr_solid4 {
 
     width: 40%;
-    border: 0.5px solid transparent;
+    border: 0.5px solid black;
+    visibility: hidden;
 
   }
   #img2 {
@@ -444,6 +496,8 @@ a:hover {
     height: 0;
     width: 60%;
     border: 0.5px solid black;
+    visibility: visible;
+
   }
   .nested_container3 > ul {
 
@@ -471,6 +525,7 @@ a:hover {
     height: 0;
     width: 60%;
     border: 0.5px solid black;
+    visibility: visible;
 
   }
   .nested_container3 > img {
