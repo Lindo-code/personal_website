@@ -57,6 +57,11 @@ body {
   border: 0.6px solid red;
 
 }
+p {
+
+  text-align: left;
+
+}
 .container {
 
   display: grid;
@@ -120,6 +125,7 @@ body {
   grid-template-columns: auto auto;
   justify-items: center;
   align-items: center;
+  grid-column-gap: 20px;
 
 }
 .nested_container4 > p {
