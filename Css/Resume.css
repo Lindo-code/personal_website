@@ -150,16 +150,15 @@ body {
 }
 #img4 {
 
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
 
 }
 #img5 {
 
   width: 170px;
   height: 170px;
-  border: 8px solid black;
-  border-radius: 10px;
+  border: 20px solid transparent;
 
 }
 #img6 {
@@ -172,6 +171,19 @@ body {
 
   width: 160px;
   height: 160px;
+
+}
+#img8 {
+
+  width: 200px;
+  height: 150px;
+  border: 20px solid transparent;
+
+}
+#img9 {
+
+  width: 160px;
+  height: 80px;
 
 }
 .nested_container2 > #img1 {
@@ -541,22 +553,37 @@ a:hover {
   }
   #img5 {
 
-    width: 100px;
-    height: 100px;
-    border: 8px solid black;
+    width: 150px;
+    height: 150px;
+    border: 25px solid transparent;
     border-radius: 10px;
 
   }
   #img6 {
 
-    width: 180px;
-    height: 70px;
+    width: 160px;
+    height: 130px;
+    border: 25px solid transparent;
 
   }
   #img7 {
 
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
+
+  }
+  #img8 {
+
+    width: 160px;
+    height: 130px;
+    border: 25px solid transparent;
+
+  }
+  #img9 {
+
+    width: 140px;
+    height: 70px;
+    border-top: 20px solid transparent;
 
   }
   .hr_solid3 {
