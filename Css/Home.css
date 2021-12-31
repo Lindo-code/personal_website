@@ -36,6 +36,11 @@ body {
   height: 90%;
   border: 0.5px solid red;
 }
+.hr_solid5 {
+
+  width: 50%;
+  border: 0.5px solid white;
+}
 .container {
 
   display: grid;
@@ -94,6 +99,11 @@ ul {
 ol {
 
   text-align: left;
+
+}
+.middle_text {
+
+  text-align: center;
 
 }
 #contrast {
