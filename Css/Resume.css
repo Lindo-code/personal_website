@@ -99,6 +99,11 @@ p {
   justify-items: center;
 
 }
+i > span {
+
+  font-weight: normal;
+
+}
 .nested_container1 > p {
 
   margin-top: -5em;

@@ -16,6 +16,13 @@ body {
   margin: 0;
 
 }
+#deco {
+
+  font-size: 0.9rem;
+  color: #a8e6ce;
+  font-weight: normal;
+
+}
 .hr_solid {
 
   width: 50%;
