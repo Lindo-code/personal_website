@@ -141,13 +141,8 @@ i > span {
 }
 #navbartitle {
 
-  background-color: #ff8177;
-  background-image: linear-gradient(totop,#ff8844 0%, #ffb1 100%);
+  color: #ff8177;
   background-size: 100;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -155,9 +150,6 @@ i > span {
   font-family: Times New Roman;
   font-size: 2rem;
 
-}
-.f-gem {
-  margin-right: 0.5rem;
 }
 .navbar_menu {
 
@@ -248,7 +240,6 @@ i > span {
 .nested_container1 > a {
 
   color: white;
-  /*text-shadow: 1px 1px 1px #ccc;*/
   font-size: 1.5rem;
   margin-top: -1em;
 
