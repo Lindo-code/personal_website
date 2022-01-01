@@ -282,13 +282,14 @@ i > span {
 
 }
 #myBtn {
+
   display: none;
   /* Hidden by default */
   position: fixed;
   /* Fixed/sticky position */
   bottom: -8px;
   /* Place the button at the bottom of the page */
-  right: 30px;
+  right: 45%;
   /* Place the button 30px from the right */
   z-index: 1005;
   /* Make sure it does not overlap */
@@ -308,6 +309,7 @@ i > span {
   /* Rounded corners */
   font-size: 15px;
   /* Increase font size */
+
 }
 
 #myBtn:hover {
