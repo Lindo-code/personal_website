@@ -3,19 +3,6 @@
   box-sizing: border-box;
 
 }
-body {
-
-  width: 100%;
-  background-image: url("");
-  /*make background-image cover screen*/
-  background-size: cover;
-  background-color: black;
-  /*make background-image fit screen*/
-  position: absolute;
-  /*make divs inside body fit screen, no scrolling*/
-  margin: 0;
-
-}
 input[type="checkbox"] {
 
   margin-left: 10px;
@@ -66,9 +53,29 @@ input[type="checkbox"]:checked + label:before {
   line-height: 15px;
 
 }
+body {
+
+  width: 100%;
+  background-image: url("");
+  /*make background-image cover screen*/
+  background-size: cover;
+  background-color: black;
+  /*make background-image fit screen*/
+  position: absolute;
+  /*make divs inside body fit screen, no scrolling*/
+  margin: 0;
+
+}
 #deco {
 
   font-size: 0.9rem;
+  color: green;
+  text-decoration: none;
+
+}
+#deco2 {
+
+  font-size: 0.8rem;
   color: green;
   text-decoration: none;
 
@@ -78,23 +85,22 @@ input[type="checkbox"]:checked + label:before {
   width: 20%;
   border: 0.5px solid black;
   visibility: hidden;
-
 }
 .hr_solid2 {
 
   width: 25%;
   border: 0.5px solid red;
-
 }
 .hr_solid3 {
 
+  width: 0;
   height: 70%;
   border: 1px solid black;
   visibility: hidden;
-
 }
 .hr_solid4 {
 
+  width: 0;
   height: 70%;
   border: 1px solid black;
   visibility: hidden;
@@ -102,35 +108,35 @@ input[type="checkbox"]:checked + label:before {
 }
 .hr_solid5 {
 
+  width: 0;
   height: 70%;
   border: 1px solid black;
   visibility: hidden;
-
 }
 .hr_solid6 {
 
   width: 70%;
   height: 0;
   border: 0.6px solid red;
-
 }
 .hr_solid7 {
 
-  width: 75%;
+  width: 65%;
   border: 0.5px solid red;
 
 }
-p {
+.hr_solid8 {
 
-  text-align: left;
+  width: 65%;
+  border: 0.5px solid red;
 
 }
 .container {
 
   display: grid;
   height: 100%;
-  grid-template-rows: 1fr auto auto auto;
-  grid-template-columns: auto 1fr auto auto auto auto;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
   grid-template-areas:
   "l1 m1 r1 r2"
   "l1 m2 r1 r2"
@@ -205,7 +211,6 @@ i > span {
   justify-items: center;
   align-items: center;
   grid-column-gap: 25px;
-  font-family: 'Kumbh Sans',sans-serif;
 
 }
 .nested_container4 {
@@ -225,11 +230,6 @@ i > span {
   grid-template-columns: repeat(3, auto);
   justify-items: center;
   align-items: center;
-
-}
-.nested_container4 > p {
-
-  font-family: 'Kumbh Sans',sans-serif;
 
 }
 .nested_line {
@@ -298,7 +298,7 @@ i > span {
   width: 130px;
   height: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  background-color: #2f4f4f;
+  background-color: white;
 
 }
 /*.item {
@@ -333,10 +333,15 @@ i > span {
 }
 #navbartitle {
 
-  color: #ff8177;
+  background-color: #ff8177;
+  background-image: linear-gradient(totop,#ff8844 0%, #ffb1 100%);
   background-size: 100;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
   display: flex;
-  align-items: center;
+  align-self: center;
   cursor: pointer;
   text-decoration: none;
   font-family: Times New Roman;
@@ -369,7 +374,6 @@ i > span {
 
 }
 #myBtn {
-
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -390,13 +394,12 @@ i > span {
   /* Text color */
   cursor: pointer;
   /* Add a mouse pointer on hover */
-  padding: 15px;
+  padding: 10px 15px 10px 15px;
   /* Some padding */
   border-radius: 10px;
   /* Rounded corners */
   font-size: 15px;
   /* Increase font size */
-
 }
 
 #myBtn:hover {
@@ -476,7 +479,6 @@ i > span {
   width: 85%;
   justify-self: center;
   padding: 1em 1em 0 1em;
-  margin-bottom: 2em;
   border-radius: 10px;
   background-color: #ffe4c4;
   text-align: center;
@@ -500,7 +502,6 @@ i > span {
   width: 85%;
   justify-self: center;
   padding: 1em 1em 0 1em;
-  margin-bottom: 2em;
   border-radius: 10px;
   background-color: #ffe4c4;
   text-align: center;
@@ -524,7 +525,6 @@ i > span {
   width: 85%;
   justify-self: center;
   padding: 1em 1em 0 1em;
-  margin-bottom: 2em;
   border-radius: 10px;
   background-color: #ffe4c4;
   text-align: center;
@@ -548,7 +548,6 @@ i > span {
   width: 85%;
   justify-self: center;
   padding: 1em 1em 0 1em;
-  margin-bottom: 2em;
   border-radius: 10px;
   background-color: #ffe4c4;
   text-align: center;
@@ -596,6 +595,7 @@ i > span {
 .nested_container1 > a {
 
   color: white;
+  /*text-shadow: 1px 1px 1px #ccc;*/
   font-size: 1.5rem;
   margin-top: -1em;
 
@@ -647,6 +647,137 @@ a:hover {
   border-radius: 5px;
 
 }
+@media screen and (min-width: 1025px) {
+
+  .container {
+
+    display: grid;
+    height: 100%;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "l1 m1 m1 r1 r2"
+    "l1 m2 m2 r1 r2"
+    "l1 m3 m3 r1 r2"
+    "l1 m4 m6 r1 r2"
+    "l1 m5 m7 r1 r2"
+    "l1 m8 m8 r1 r2"
+    "l1 m9 m9 r1 r2"
+    "l1 m10 m12 r1 r2"
+    "l1 m11 m13 r1 r2"
+    "m14 m14 m14 m14 m14";
+
+  }
+  .main9 {
+
+    margin-bottom: 2em;
+
+  }
+  .main11 {
+
+    margin-bottom: 2em;
+
+  }
+  .main3 {
+
+    padding-bottom: 0;
+
+  }
+  .nested_container3 {
+
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(1,auto);
+    justify-items: center;
+    grid-row-gap: 10px;
+
+  }
+  .hr_solid4 {
+
+    height: 0;
+    width: 40%;
+    border: 0.5px solid black;
+    visibility: hidden;
+
+  }
+  #myBtn {
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+  }
+  .hr_solid3 {
+
+    height: 0;
+    width: 60%;
+    border: 0.5px solid red;
+    visibility: hidden;
+
+  }
+  .nested_container3 > ul {
+
+    grid-row: 3;
+
+  }
+  .nested_container3 > #add_line {
+
+    grid-row: 2;
+
+  }
+  .nested_container3 > .hr_solid3 {
+
+    grid-row: 3;
+    visibility: visible;
+
+  }
+  .nested_container3 > .hr_solid5 {
+
+    grid-row: 2;
+    visibility: visible;
+
+  }
+  .hr_solid5 {
+
+    height: 0;
+    width: 60%;
+    border: 0.5px solid red;
+    visibility: hidden;
+
+  }
+  .hr_solid7 {
+
+    visibility: hidden;
+
+  }
+  .hr_solid8 {
+
+    visibility: visible;
+
+  }
+  .nested_container3 > img {
+
+    grid-row: 1;
+
+  }
+  .nested_container3 > #container4_intro {
+
+    grid-row: 2;
+
+  }
+  .main1 {
+
+    width: 75%;
+    justify-self: center;
+    padding: 0;
+    margin-top: -5em;
+    border-radius: 10px;
+    background-color: #d87878;
+    text-align: center;
+    font-family: 'Kumbh Sans',sans-serif;
+    z-index: 1001;
+
+  }
+}
 @media screen and (max-width: 968px) {
 
   .nested_container3 {
@@ -656,11 +787,20 @@ a:hover {
     grid-template-columns: repeat(1,auto);
     justify-items: center;
     grid-row-gap: 10px;
-    font-family: 'Kumbh Sans',sans-serif;
+
+  }
+  .nested_container5 {
+
+    display: grid;
+    grid-template-rows: 6, auto;
+    grid-template-columns: repeat(1,auto);
+    justify-items: center;
+    grid-row-gap: 10px;
 
   }
   .hr_solid4 {
 
+    height: 0;
     width: 40%;
     border: 0.5px solid black;
     visibility: hidden;
@@ -695,14 +835,12 @@ a:hover {
     width: 150px;
     height: 150px;
     border: 25px solid transparent;
-    border-radius: 10px;
 
   }
   #img6 {
 
-    width: 160px;
-    height: 130px;
-    border: 25px solid transparent;
+    width: 180px;
+    height: 70px;
 
   }
   #img7 {
@@ -729,7 +867,7 @@ a:hover {
 
     height: 0;
     width: 60%;
-    border: 0.5px solid black;
+    border: 0.5px solid red;
     visibility: visible;
 
   }
@@ -738,10 +876,14 @@ a:hover {
     grid-row: 3;
 
   }
+  .nested_container5 > ul {
+
+    grid-row: 3;
+
+  }
   #add_line {
 
     grid-row: 2;
-    font-family: 'Kumbh Sans',sans-serif;
 
   }
   .hr_solid3 {
@@ -767,7 +909,17 @@ a:hover {
     visibility: hidden;
 
   }
+  .hr_solid8 {
+
+    visibility: hidden;
+
+  }
   .nested_container3 > img {
+
+    grid-row: 1;
+
+  }
+  .nested_container5 > img {
 
     grid-row: 1;
 
