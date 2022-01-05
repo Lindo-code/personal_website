@@ -164,23 +164,27 @@ body {
 p {
 
   text-align: left;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 #ul_left {
 
   text-align: left;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 #h_left {
 
   text-decoration: underline red dotted;
   text-align: left;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 #h_center {
 
   text-decoration: underline red dotted;
   text-align: center;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 i > span {
@@ -201,6 +205,7 @@ i > span {
   display: grid;
   grid-template-rows: 5, auto;
   justify-items: center;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 .nested_container3 {
@@ -211,6 +216,7 @@ i > span {
   justify-items: center;
   align-items: center;
   grid-column-gap: 25px;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 .nested_container4 {
@@ -221,6 +227,7 @@ i > span {
   justify-items: center;
   align-items: center;
   grid-column-gap: 20px;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 .nested_container5 {
@@ -230,6 +237,7 @@ i > span {
   grid-template-columns: repeat(3, auto);
   justify-items: center;
   align-items: center;
+  font-family: 'Kumbh Sans',sans-serif;
 
 }
 .nested_line {
@@ -298,7 +306,7 @@ i > span {
   width: 130px;
   height: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  background-color: white;
+  background-color: #2f4f4f;
 
 }
 /*.item {
