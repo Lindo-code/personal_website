@@ -81,6 +81,20 @@ body {
   text-decoration: none;
 
 }
+#deco1 {
+
+  font-size: 0.8rem;
+  color: white;
+  text-decoration: none;
+
+}
+#deco02 {
+
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+
+}
 .hr_solid {
 
   width: 20%;
@@ -189,7 +203,7 @@ p {
   font-family: 'Kumbh Sans',sans-serif;
 
 }
-i > span {
+i {
 
   font-weight: normal;
 
@@ -240,6 +254,13 @@ i > span {
   justify-items: center;
   align-items: center;
   font-family: 'Kumbh Sans',sans-serif;
+
+}
+.nested_container6 {
+
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-items: center;
 
 }
 .nested_line {
@@ -561,6 +582,7 @@ i > span {
   background-color: #ffe4c4;
   text-align: center;
   z-index: 1001;
+  margin-bottom: 2em;
 
 }
 .main12 {
@@ -572,6 +594,7 @@ i > span {
   border-radius: 10px;
   background-color: black;
   z-index: 1001;
+  display: none;
 
 }
 .main13 {
@@ -585,6 +608,7 @@ i > span {
   background-color: #ffe4c4;
   text-align: center;
   z-index: 1001;
+  display: none;
 
 }
 .footer {
@@ -658,7 +682,7 @@ a:hover {
 }
 @media screen and (min-width: 1025px) {
 
-  .container {
+  /*.container {
 
     display: grid;
     height: 100%;
@@ -676,23 +700,39 @@ a:hover {
     "l1 m11 m13 r1 r2"
     "m14 m14 m14 m14 m14";
 
-  }
-  .main9 {
+  }*/
+  .main2 {
 
-    margin-bottom: 2em;
-
-  }
-  .main11 {
-
-    margin-bottom: 2em;
+    width: 95%;
 
   }
-  .main3 {
+  .main4 {
 
-    padding-bottom: 0;
+    width: 95%;
 
   }
-  .nested_container3 {
+  .main6 {
+
+    width: 95%;
+
+  }
+  .main8 {
+
+    width: 95%;
+
+  }
+
+  .main10 {
+
+    width: 95%;
+
+  }
+  .main12 {
+
+    width: 95%;
+
+  }
+  /*.nested_container3 {
 
     display: grid;
     grid-template-rows: auto;
@@ -785,7 +825,7 @@ a:hover {
     font-family: 'Kumbh Sans',sans-serif;
     z-index: 1001;
 
-  }
+  }*/
 }
 @media screen and (max-width: 968px) {
 
