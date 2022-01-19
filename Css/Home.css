@@ -105,6 +105,13 @@ i > span {
   grid-column-gap: 10px;
 
 }
+.nested_container4 {
+
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-items: center;
+
+}
 p {
 
   text-align: left;
