@@ -58,12 +58,9 @@ body {
 
   width: 100%;
   background-image: url("");
-  /*make background-image cover screen*/
   background-size: cover;
   background-color: black;
-  /*make background-image fit screen*/
   position: absolute;
-  /*make divs inside body fit screen, no scrolling*/
   margin: 0;
 
 }
@@ -86,6 +83,7 @@ body {
   font-size: 0.8rem;
   color: white;
   text-decoration: none;
+  font-weight: normal;
 
 }
 #deco02 {
@@ -332,11 +330,6 @@ i {
   background-color: #2f4f4f;
 
 }
-/*.item {
-
-  border: 4px solid red;
-
-}*/
 .navbar {
 
   background: #2f4f4f;
@@ -347,7 +340,6 @@ i {
   font-size: 1.2rem;
   top: 0;
   z-index: 998;
-  /*keep above but dont cover content*/
 
 }
 .navbar_container {
@@ -405,31 +397,19 @@ i {
 }
 #myBtn {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Fixed/sticky position */
   bottom: -8px;
-  /* Place the button at the bottom of the page */
   right: 45%;
-  /* Place the button 30px from the right */
   z-index: 1005;
-  /* Make sure it does not overlap */
   border: none;
-  /* Remove borders */
   outline: none;
-  /* Remove outline */
   background-color: red;
-  /* Set a background color */
   color: white;
-  /* Text color */
   cursor: pointer;
-  /* Add a mouse pointer on hover */
   padding: 10px 15px 10px 15px;
-  /* Some padding */
   border-radius: 10px;
-  /* Rounded corners */
   font-size: 15px;
-  /* Increase font size */
+
 }
 
 #myBtn:hover {
@@ -628,7 +608,6 @@ i {
 .nested_container1 > a {
 
   color: white;
-  /*text-shadow: 1px 1px 1px #ccc;*/
   font-size: 1.5rem;
   margin-top: -1em;
 
@@ -682,25 +661,7 @@ a:hover {
 }
 @media screen and (min-width: 1025px) {
 
-  /*.container {
 
-    display: grid;
-    height: 100%;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    grid-template-areas:
-    "l1 m1 m1 r1 r2"
-    "l1 m2 m2 r1 r2"
-    "l1 m3 m3 r1 r2"
-    "l1 m4 m6 r1 r2"
-    "l1 m5 m7 r1 r2"
-    "l1 m8 m8 r1 r2"
-    "l1 m9 m9 r1 r2"
-    "l1 m10 m12 r1 r2"
-    "l1 m11 m13 r1 r2"
-    "m14 m14 m14 m14 m14";
-
-  }*/
   .main2 {
 
     width: 95%;
@@ -732,100 +693,6 @@ a:hover {
     width: 95%;
 
   }
-  /*.nested_container3 {
-
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: repeat(1,auto);
-    justify-items: center;
-    grid-row-gap: 10px;
-
-  }
-  .hr_solid4 {
-
-    height: 0;
-    width: 40%;
-    border: 0.5px solid black;
-    visibility: hidden;
-
-  }
-  #myBtn {
-
-    padding-top: 5px;
-    padding-bottom: 10px;
-
-  }
-  .hr_solid3 {
-
-    height: 0;
-    width: 60%;
-    border: 0.5px solid red;
-    visibility: hidden;
-
-  }
-  .nested_container3 > ul {
-
-    grid-row: 3;
-
-  }
-  .nested_container3 > #add_line {
-
-    grid-row: 2;
-
-  }
-  .nested_container3 > .hr_solid3 {
-
-    grid-row: 3;
-    visibility: visible;
-
-  }
-  .nested_container3 > .hr_solid5 {
-
-    grid-row: 2;
-    visibility: visible;
-
-  }
-  .hr_solid5 {
-
-    height: 0;
-    width: 60%;
-    border: 0.5px solid red;
-    visibility: hidden;
-
-  }
-  .hr_solid7 {
-
-    visibility: hidden;
-
-  }
-  .hr_solid8 {
-
-    visibility: visible;
-
-  }
-  .nested_container3 > img {
-
-    grid-row: 1;
-
-  }
-  .nested_container3 > #container4_intro {
-
-    grid-row: 2;
-
-  }
-  .main1 {
-
-    width: 75%;
-    justify-self: center;
-    padding: 0;
-    margin-top: -5em;
-    border-radius: 10px;
-    background-color: #d87878;
-    text-align: center;
-    font-family: 'Kumbh Sans',sans-serif;
-    z-index: 1001;
-
-  }*/
 }
 @media screen and (max-width: 968px) {
 
@@ -1041,5 +908,4 @@ a:hover {
     z-index: 1001;
 
   }
-
 }
