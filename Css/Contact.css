@@ -54,6 +54,12 @@ body {
   height: 90%;
   border: 0.5px solid red;
 }
+.hr_solid5 {
+
+  width: 50%;
+  border: 1px solid red;
+  margin-top: -20px;
+}
 .container {
 
   display: grid;
@@ -267,6 +273,18 @@ a:hover {
   color: black;
   background-color: #ffdead;
   border-radius: 5px;
+
+}
+.bold {
+
+  color: #ffdead;
+  font-weight: bold;
+
+}
+a:hover {
+
+  color: brown;
+  font-weight: bold;
 
 }
 @media screen and (max-width: 968px) {
