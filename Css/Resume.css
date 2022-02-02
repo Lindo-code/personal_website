@@ -150,6 +150,14 @@ body {
   width: 50%;
   border: 1px solid red;
   margin-top: -20px;
+
+}
+.hr_solid10 {
+
+  width: 50%;
+  height: 0;
+  border: 1px solid red;
+  margin-top: 1px;
 }
 .container {
 
@@ -158,6 +166,7 @@ body {
   grid-template-rows: auto;
   grid-template-columns: auto;
   grid-template-areas:
+  "l1 m0 r1 r2"
   "l1 m1 r1 r2"
   "l1 m2 r1 r2"
   "l1 m3 r1 r2"
@@ -266,6 +275,22 @@ i {
   grid-template-columns: repeat(4, auto);
   justify-items: center;
 
+}
+.nested_container7 {
+
+  display: grid;
+  grid-template-rows: 2, auto;
+  justify-items: center;
+  justify-content: center;
+
+}
+.navbar_links_mobile {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "l1 l2 l3";
+  grid-column-gap: 10px;
 }
 .nested_line {
 
@@ -417,11 +442,53 @@ i {
   font-size: 15px;
 
 }
-
+#link1 {
+  display: grid;
+  grid-area: l1;
+  color: #ffdead;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Kumbh Sans',sans-serif;
+  z-index: 1000;
+}
+#link2 {
+  display: grid;
+  grid-area: l2;
+  color: white;
+  text-decoration: none;
+  font-family: 'Kumbh Sans',sans-serif;
+  z-index: 1000;
+}
+#link3 {
+  display: grid;
+  grid-area: l3;
+  color: white;
+  text-decoration: none;
+  font-family: 'Kumbh Sans',sans-serif;
+  z-index: 1000;
+}
 #myBtn:hover {
 
   background-color: #ffdead;
   color: black;
+
+}
+#link1:hover {
+
+  color: brown;
+  font-weight: bold;
+
+}
+#link2:hover {
+
+  color: brown;
+  font-weight: bold;
+
+}
+#link3:hover {
+
+  color: brown;
+  font-weight: bold;
 
 }
 .left {
@@ -441,6 +508,12 @@ i {
   border-left: 16px solid transparent;
   grid-area: r2;
 
+}
+.main0 {
+  visibility: hidden;
+  display: grid;
+  grid-area: m0;
+  margin-top: -8em;
 }
 .main1 {
 
@@ -665,7 +738,7 @@ a:hover {
   border-radius: 5px;
 
 }
-bold {
+.bold {
 
   color: #ffdead;
   font-weight: bold;
@@ -679,7 +752,9 @@ a:hover {
 }
 @media screen and (min-width: 1025px) {
 
-
+  .main0 {
+    visibility: hidden;
+  }
   .main2 {
 
     width: 95%;
@@ -714,6 +789,9 @@ a:hover {
 }
 @media screen and (max-width: 968px) {
 
+  .main0 {
+    visibility: visible;
+  }
   .nested_container3 {
 
     display: grid;
