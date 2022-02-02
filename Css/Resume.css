@@ -387,13 +387,7 @@ i {
 }
 #navbartitle {
 
-  background-color: #ff8177;
-  background-image: linear-gradient(totop,#ff8844 0%, #ffb1 100%);
-  background-size: 100;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: white;
   display: flex;
   align-self: center;
   text-decoration: none;
