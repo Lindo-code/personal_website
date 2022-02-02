@@ -59,13 +59,21 @@ body {
   margin-top: -20px;
 
 }
+.hr_solid7 {
+
+  width: 50%;
+  height: 0;
+  border: 1px solid red;
+  margin-top: 1px;
+}
 .container {
 
   display: grid;
   height: 100%;
-  grid-template-rows: 1fr auto auto;
+  grid-template-rows: auto 1fr auto auto;
   grid-template-columns: auto 1fr auto auto;
   grid-template-areas:
+  "l1 m0 r1 r2"
   "l1 m1 r1 r2"
   "l1 m2 r1 r2"
   "l1 m3 r1 r2"
@@ -116,6 +124,22 @@ i > span {
   justify-items: center;
 
 }
+.nested_container5 {
+
+  display: grid;
+  grid-template-rows: 2, auto;
+  justify-items: center;
+  justify-content: center;
+
+}
+.navbar_links_mobile {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "l1 l2 l3";
+  grid-column-gap: 10px;
+}
 p {
 
   text-align: left;
@@ -157,6 +181,31 @@ ol {
   height: 280px;
 
 }
+#link1 {
+  display: grid;
+  grid-area: l1;
+  color: #ffdead;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Kumbh Sans',sans-serif;
+  z-index: 1000;
+}
+#link2 {
+  display: grid;
+  grid-area: l2;
+  color: white;
+  text-decoration: none;
+  font-family: 'Kumbh Sans',sans-serif;
+  z-index: 1000;
+}
+#link3 {
+  display: grid;
+  grid-area: l3;
+  color: white;
+  text-decoration: none;
+  font-family: 'Kumbh Sans',sans-serif;
+  z-index: 1000;
+}
 .navbar {
 
   background: #2f4f4f;
@@ -184,7 +233,7 @@ ol {
 }
 #navbartitle {
 
-  color: #ff8177;
+  color: white;
   background-size: 100;
   display: flex;
   align-items: center;
@@ -243,6 +292,24 @@ ol {
   color: black;
 
 }
+#link1:hover {
+
+  color: brown;
+  font-weight: bold;
+
+}
+#link2:hover {
+
+  color: brown;
+  font-weight: bold;
+
+}
+#link3:hover {
+
+  color: brown;
+  font-weight: bold;
+
+}
 .navbar_links > a {
 
   color: transparent;
@@ -265,6 +332,14 @@ ol {
 
   border-left: 16px solid transparent;
   grid-area: r2;
+
+}
+.main0 {
+
+  visibility: hidden;
+  display: grid;
+  grid-area: m0;
+  margin-top: -8em;
 
 }
 .main1 {
@@ -339,6 +414,11 @@ a:hover {
 }
 @media screen and (max-width: 968px) {
 
+  .main0 {
+
+    visibility: visible;
+
+  }
   .nested_container3 {
 
     display: grid;
