@@ -439,8 +439,7 @@ i {
 #link1 {
   display: grid;
   grid-area: l1;
-  color: #ffdead;
-  font-weight: bold;
+  color: white;
   text-decoration: none;
   font-family: 'Kumbh Sans',sans-serif;
   z-index: 1000;
@@ -448,7 +447,8 @@ i {
 #link2 {
   display: grid;
   grid-area: l2;
-  color: white;
+  color: #ffdead;
+  font-weight: bold;
   text-decoration: none;
   font-family: 'Kumbh Sans',sans-serif;
   z-index: 1000;
