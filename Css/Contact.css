@@ -428,10 +428,10 @@ a:hover {
   }
   .main {
 
-    width: 85%;
+    width: 75%;
     justify-self: center;
-    padding: 1em 1em 0 1em;
-    margin-top: -6em;
+    padding: 0;
+    margin-top: -5em;
     border-radius: 10px;
     background-color: #d87878;
     text-align: center;
