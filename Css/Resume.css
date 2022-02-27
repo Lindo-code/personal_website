@@ -301,6 +301,13 @@ i {
   align-items: center;
 
 }
+#img0 {
+
+  width: 320px;
+  height: 260px;
+  border-radius: 10px;
+
+}
 #img2 {
 
   width: 260px;
@@ -647,7 +654,6 @@ i {
   border-radius: 10px;
   background-color: black;
   z-index: 1001;
-  display: none;
 
 }
 .main13 {
@@ -661,7 +667,6 @@ i {
   background-color: #ffe4c4;
   text-align: center;
   z-index: 1001;
-  display: none;
 
 }
 .footer {
