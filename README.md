@@ -1,4 +1,4 @@
-#First Personal Website
+# First Personal Website
 
 ![Design preview of personal website](./images/sitepreview.jpg)
 
