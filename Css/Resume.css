@@ -816,6 +816,12 @@ a:hover {
     padding-bottom: 10px;
 
   }
+  #img0 {
+
+    width: 220px;
+    height: 160px;
+    border-radius: 10px;
+  }
   #img2 {
 
     width: 180px;
