@@ -42,21 +42,25 @@ body {
 .hr_solid2 {
 
   width: 25%;
+  background-color: red;
   border: 0.5px solid red;
 }
 .hr_solid3 {
 
   height: 90%;
+  background-color: red;
   border: 0.5px solid red;
 }
 .hr_solid4 {
 
   height: 90%;
+  background-color: red;
   border: 0.5px solid red;
 }
 .hr_solid5 {
 
   width: 50%;
+  background-color: red;
   border: 1px solid red;
   margin-top: -20px;
 }

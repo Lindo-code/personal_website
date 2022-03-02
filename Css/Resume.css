@@ -67,6 +67,7 @@ body {
 #deco {
 
   font-size: 0.9rem;
+  font-weight: normal;
   color: green;
   text-decoration: none;
 
@@ -102,6 +103,7 @@ body {
 .hr_solid2 {
 
   width: 25%;
+  background-color: red;
   border: 0.5px solid red;
 }
 .hr_solid3 {
@@ -136,12 +138,14 @@ body {
 .hr_solid7 {
 
   width: 65%;
+  background-color: red;
   border: 0.5px solid red;
 
 }
 .hr_solid8 {
 
   width: 65%;
+  background-color: red;
   border: 0.5px solid red;
 
 }
@@ -149,6 +153,7 @@ body {
 
   width: 50%;
   border: 1px solid red;
+  background-color: red;
   margin-top: -20px;
 
 }
@@ -303,7 +308,7 @@ i {
 }
 #img0 {
 
-  width: 320px;
+  width: 360px;
   height: 260px;
   border-radius: 10px;
 
@@ -818,8 +823,8 @@ a:hover {
   }
   #img0 {
 
-    width: 220px;
-    height: 160px;
+    width: 13.4em;
+    height: 10em;
     border-radius: 10px;
   }
   #img2 {
