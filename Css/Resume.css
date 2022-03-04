@@ -150,6 +150,9 @@ body {
   grid-template-columns: repeat(3,auto);
   justify-items: center;
 }
+h4 {
+  font-family: 'Kumbh Sans',sans-serif;
+}
 p {
   text-align: left;
   font-family: 'Kumbh Sans',sans-serif;
@@ -237,8 +240,8 @@ i {
   align-items: center;
 }
 #img0 {
-  width: 360px;
-  height: 260px;
+  width: 30vw;
+  height: 21vw;
   border-radius: 10px;
 }
 #img2 {
