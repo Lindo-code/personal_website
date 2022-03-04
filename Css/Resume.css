@@ -1,16 +1,12 @@
 * {
-
   box-sizing: border-box;
-
 }
 input[type="checkbox"] {
-
   margin-left: 10px;
   display: none;
-
+  margin-top: 10px;
 }
 label:before {
-
   content: "";
   display: inline-block;
   width: 16px;
@@ -22,150 +18,116 @@ label:before {
   background-color: white;
   border-radius: 3px;
   box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
-
 }
 label {
-
   display: inline-block;
   cursor: pointer;
   position: relative;
   padding-left: 40px;
   margin-right: 15px;
   font-size: 15px;
-
+  margin-top: 10px;
 }
 .checkbox label {
-
   margin-bottom: 10px;
-
 }
 .checkbox label:before {
-
   border-radius: 3px;
-
 }
 input[type="checkbox"]:checked + label:before {
-
   content: "\2713";
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
   font-size: 15px;
   color: black;
   text-align: center;
   line-height: 15px;
-
 }
 body {
-
   width: 100%;
   background-image: url("");
   background-size: cover;
   background-color: black;
   position: absolute;
   margin: 0;
-
 }
 #deco {
-
   font-size: 0.9rem;
   font-weight: normal;
   color: green;
   text-decoration: none;
-
 }
 #deco2 {
-
   font-size: 0.8rem;
   color: green;
   text-decoration: none;
-
 }
 #deco1 {
-
   font-size: 0.8rem;
   color: white;
   text-decoration: none;
   font-weight: normal;
-
 }
 #deco02 {
-
   font-size: 1.2rem;
   color: white;
   text-decoration: none;
-
 }
 .hr_solid {
-
   width: 20%;
   border: 0.5px solid black;
   visibility: hidden;
 }
 .hr_solid2 {
-
   width: 25%;
   background-color: red;
   border: 0.5px solid red;
 }
 .hr_solid3 {
-
   width: 0;
   height: 70%;
   border: 1px solid black;
   visibility: hidden;
 }
 .hr_solid4 {
-
   width: 0;
   height: 70%;
   border: 1px solid black;
   visibility: hidden;
-
 }
 .hr_solid5 {
-
   width: 0;
   height: 70%;
   border: 1px solid black;
   visibility: hidden;
 }
 .hr_solid6 {
-
   width: 70%;
   height: 0;
   border: 0.6px solid red;
-
 }
 .hr_solid7 {
-
   width: 65%;
   background-color: red;
   border: 0.5px solid red;
-
 }
 .hr_solid8 {
-
   width: 65%;
   background-color: red;
   border: 0.5px solid red;
-
 }
 .hr_solid9 {
-
   width: 50%;
   border: 1px solid red;
   background-color: red;
   margin-top: -20px;
-
 }
 .hr_solid10 {
-
   width: 50%;
   height: 0;
   border: 1px solid red;
   margin-top: 1px;
 }
 .container {
-
   display: grid;
   height: 100%;
   grid-template-rows: auto;
@@ -181,69 +143,47 @@ body {
   "l1 m7 r1 r2"
   "l1 m8 r1 r2"
   "l1 m9 r1 r2"
-  "l1 m10 r1 r2"
-  "l1 m11 r1 r2"
-  "l1 m12 r1 r2"
-  "l1 m13 r1 r2"
   "m14 m14 m14 m14";
-
 }
 .nested_container1 {
-
   display: grid;
   grid-template-columns: repeat(3,auto);
   justify-items: center;
-
 }
 p {
-
   text-align: left;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 #ul_left {
-
   text-align: left;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 #h_left {
-
   text-decoration: underline red dotted;
   text-align: left;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 #h_center {
-
   text-decoration: underline red dotted;
   text-align: center;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 i {
-
   font-weight: normal;
-
 }
 .nested_container1 > p {
-
   margin-top: -5em;
   padding: 1em;
   justify-items: center;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .nested_container2 {
-
   display: grid;
   grid-template-rows: 5, auto;
   justify-items: center;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .nested_container3 {
-
   display: grid;
   grid-template-rows: 6, auto;
   grid-template-columns: repeat(3, auto);
@@ -251,10 +191,8 @@ i {
   align-items: center;
   grid-column-gap: 25px;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .nested_container4 {
-
   display: grid;
   grid-template-rows: 6, auto;
   grid-template-columns: auto auto;
@@ -262,32 +200,26 @@ i {
   align-items: center;
   grid-column-gap: 20px;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .nested_container5 {
-
   display: grid;
   grid-template-rows: 6, auto;
   grid-template-columns: repeat(3, auto);
   justify-items: center;
   align-items: center;
   font-family: 'Kumbh Sans',sans-serif;
-
+  grid-column-gap: 20px;
 }
 .nested_container6 {
-
   display: grid;
   grid-template-columns: repeat(4, auto);
   justify-items: center;
-
 }
 .nested_container7 {
-
   display: grid;
   grid-template-rows: 2, auto;
   justify-items: center;
   justify-content: center;
-
 }
 .navbar_links_mobile {
   display: grid;
@@ -298,83 +230,60 @@ i {
   grid-column-gap: 10px;
 }
 .nested_line {
-
   display: grid;
   grid-template-rows: 2, auto;
   grid-template-columns: auto;
   justify-items: center;
   align-items: center;
-
 }
 #img0 {
-
   width: 360px;
   height: 260px;
   border-radius: 10px;
-
 }
 #img2 {
-
   width: 260px;
   height: 260px;
-
 }
 #img3 {
-
   width: 210px;
   height: 190px;
-
 }
 #img4 {
-
   width: 105px;
   height: 105px;
-
 }
 #img5 {
-
   width: 170px;
   height: 170px;
   border: 20px solid transparent;
-
 }
 #img6 {
-
   width: 260px;
   height: 180px;
-
 }
 #img7 {
-
   width: 160px;
   height: 160px;
-
 }
 #img8 {
-
   width: 150px;
   height: 110px;
   border: 20px solid transparent;
-
 }
 #img9 {
-
-  width: 160px;
-  height: 80px;
-
+  width: 140px;
+  height: 60px;
 }
 .nested_container2 > #img1 {
-
   border: 3px solid red;
   border-radius: 100px;
   width: 130px;
   height: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   background-color: #2f4f4f;
-
 }
 .navbar {
-
   background: #2f4f4f;
   border-bottom: 16px solid red;
   height: 200px;
@@ -383,10 +292,8 @@ i {
   font-size: 1.2rem;
   top: 0;
   z-index: 998;
-
 }
 .navbar_container {
-
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -395,33 +302,25 @@ i {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
-
 }
 #navbartitle {
-
   color: white;
   display: flex;
   align-self: center;
   text-decoration: none;
   font-family: "Playfair Display", Times New Roman;
   font-size: 2rem;
-
 }
 .navbar_menu {
-
   display: flex;
   align-items: center;
   list-style: none;
   text-align: center;
-
 }
 .navbar_item {
-
   height: 80px;
-
 }
 .navbar_links {
-
   color: white;
   display: flex;
   align-items: center;
@@ -430,7 +329,6 @@ i {
   padding: 0 1rem;
   height: 100%;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 #myBtn {
   display: none;
@@ -446,7 +344,6 @@ i {
   padding: 10px 15px 10px 15px;
   border-radius: 10px;
   font-size: 15px;
-
 }
 #link1 {
   display: grid;
@@ -474,46 +371,32 @@ i {
   z-index: 1000;
 }
 #myBtn:hover {
-
   background-color: #ffdead;
   color: black;
-
 }
 #link1:hover {
-
   color: brown;
   font-weight: bold;
-
 }
 #link2:hover {
-
   color: brown;
   font-weight: bold;
-
 }
 #link3:hover {
-
   color: brown;
   font-weight: bold;
-
 }
 .left {
-
   border-left: 30px solid #2f4f4f;
   grid-area: l1;
-
 }
 .right {
-
   border-left: 10px solid red;
   grid-area: r1;
-
 }
 .right2 {
-
   border-left: 16px solid transparent;
   grid-area: r2;
-
 }
 .main0 {
   visibility: hidden;
@@ -522,7 +405,6 @@ i {
   margin-top: -8em;
 }
 .main1 {
-
   grid-area: m1;
   width: 65%;
   justify-self: center;
@@ -533,419 +415,239 @@ i {
   text-align: center;
   font-family: 'Kumbh Sans',sans-serif;
   z-index: 1001;
-
+}
+.titles {
+  width: 85%;
+  justify-self: center;
+  padding: 0 1em 0 1em;
+  border-radius: 10px;
+  background-color: black;
+  z-index: 1001;
+}
+.blocks {
+  width: 85%;
+  justify-self: center;
+  padding: 1em 1em 0 1em;
+  border-radius: 10px;
+  background-color: #ffe4c4;
+  z-index: 1001;
 }
 .main2 {
-
   grid-area: m2;
-  width: 85%;
-  justify-self: center;
-  padding: 0 1em 0 1em;
-  border-radius: 10px;
-  background-color: black;
-  z-index: 1001;
-
 }
 .main3 {
-
   grid-area: m3;
-  width: 85%;
-  justify-self: center;
-  padding: 1em 1em 0 1em;
-  border-radius: 10px;
-  background-color: #ffe4c4;
-  z-index: 1001;
-
 }
 .main4 {
-
   grid-area: m4;
-  justify-self: center;
-  width: 85%;
-  padding: 0 1em 0 1em;
-  border-radius: 10px;
-  background-color: black;
-  z-index: 1001;
-
 }
 .main5 {
-
   grid-area: m5;
-  width: 85%;
-  justify-self: center;
-  padding: 1em 1em 0 1em;
-  border-radius: 10px;
-  background-color: #ffe4c4;
   text-align: center;
-  z-index: 1001;
-
 }
 .main6 {
-
   grid-area: m6;
-  justify-self: center;
-  width: 85%;
-  padding: 0 1em 0 1em;
-  border-radius: 10px;
-  background-color: black;
-  z-index: 1001;
-
 }
 .main7 {
-
   grid-area: m7;
-  width: 85%;
-  justify-self: center;
-  padding: 1em 1em 0 1em;
-  border-radius: 10px;
-  background-color: #ffe4c4;
   text-align: center;
-  z-index: 1001;
-
+  margin-bottom: 2em;
 }
 .main8 {
-
   grid-area: m8;
-  justify-self: center;
-  width: 85%;
-  padding: 0 1em 0 1em;
-  border-radius: 10px;
-  background-color: black;
-  z-index: 1001;
-
 }
 .main9 {
-
   grid-area: m9;
-  width: 85%;
-  justify-self: center;
-  padding: 1em 1em 0 1em;
-  border-radius: 10px;
-  background-color: #ffe4c4;
-  text-align: center;
-  z-index: 1001;
-
-}
-.main10 {
-
-  grid-area: m10;
-  justify-self: center;
-  width: 85%;
-  padding: 0 1em 0 1em;
-  border-radius: 10px;
-  background-color: black;
-  z-index: 1001;
-
-}
-.main11 {
-
-  grid-area: m11;
-  width: 85%;
-  justify-self: center;
-  padding: 1em 1em 0 1em;
-  border-radius: 10px;
-  background-color: #ffe4c4;
-  text-align: center;
-  z-index: 1001;
   margin-bottom: 2em;
-
-}
-.main12 {
-
-  grid-area: m12;
-  justify-self: center;
-  width: 85%;
-  padding: 0 1em 0 1em;
-  border-radius: 10px;
-  background-color: black;
-  z-index: 1001;
-
-}
-.main13 {
-
-  grid-area: m13;
-  width: 85%;
-  justify-self: center;
-  padding: 1em 1em 0 1em;
-  margin-bottom: 2em;
-  border-radius: 10px;
-  background-color: #ffe4c4;
   text-align: center;
-  z-index: 1001;
-
 }
 .footer {
-
   grid-area: m14;
   border-top: 10px solid red;
   background-color: black;
   padding: 2em;
-
 }
 .navbar_links > a {
-
   color: transparent;
   visibility: hidden;
-
 }
 .nested_container1 > a {
-
   color: white;
   font-size: 1.5rem;
   margin-top: -1em;
-
 }
 .nested_container1 > p {
-
   margin-top: -5em;
   padding: 1em;
   justify-items: center;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .nested_container2 > p {
-
   justify-items: left;
   justify-self: left;
   text-align: left;
   font-family: 'Kumbh Sans',sans-serif;
   color: black;
-
 }
 #h_color {
-
   text-align: center;
   color: #a8e6ce;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .nested_container2 > ol {
-
   justify-items: left;
   justify-self: left;
   text-align: left;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .nested_container2 > ul {
-
   justify-items: left;
   justify-self: left;
   text-align: left;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .bold {
-
   color: #ffdead;
   font-weight: bold;
-
 }
 a:hover {
-
   color: brown;
   font-weight: bold;
-
 }
 @media screen and (min-width: 1025px) {
-
   .main0 {
     visibility: hidden;
   }
   .main2 {
-
     width: 95%;
-
   }
   .main4 {
-
     width: 95%;
-
   }
   .main6 {
-
     width: 95%;
-
   }
   .main8 {
-
     width: 95%;
-
   }
-
   .main10 {
-
     width: 95%;
-
   }
   .main12 {
-
     width: 95%;
-
   }
 }
 @media screen and (max-width: 968px) {
-
   .main0 {
     visibility: visible;
   }
   .nested_container3 {
-
     display: grid;
     grid-template-rows: 6, auto;
     grid-template-columns: repeat(1,auto);
     justify-items: center;
     grid-row-gap: 10px;
-
   }
   .nested_container5 {
-
     display: grid;
     grid-template-rows: 6, auto;
     grid-template-columns: repeat(1,auto);
     justify-items: center;
     grid-row-gap: 10px;
-
   }
   .hr_solid4 {
-
     height: 0;
     width: 40%;
     border: 0.5px solid black;
     visibility: hidden;
-
   }
   #myBtn {
-
     padding-top: 5px;
     padding-bottom: 10px;
-
   }
   #img0 {
-
     width: 60vw;
     height: 40vw;
     border-radius: 10px;
   }
   #img2 {
-
     width: 180px;
     height: 180px;
-
   }
   #img3 {
-
     width: 140px;
     height: 140px;
-
   }
   #img4 {
-
     width: 100px;
     height: 100px;
-
   }
   #img5 {
-
     width: 150px;
     height: 150px;
     border: 25px solid transparent;
-
   }
   #img6 {
-
     width: 180px;
     height: 70px;
-
   }
   #img7 {
-
     width: 140px;
     height: 140px;
-
   }
   #img8 {
-
     width: 150px;
     height: 110px;
     border: 25px solid transparent;
-
   }
   #img9 {
-
     width: 140px;
     height: 70px;
     border-top: 20px solid transparent;
-
   }
   .hr_solid3 {
-
     height: 0;
     width: 60%;
     border: 0.5px solid red;
     visibility: visible;
-
   }
   .nested_container3 > ul {
-
     grid-row: 3;
-
   }
   .nested_container5 > ul {
-
     grid-row: 3;
-
   }
   #add_line {
-
     grid-row: 2;
-
   }
   .hr_solid3 {
-
     grid-row: 3;
-
   }
   .hr_solid5 {
-
     grid-row: 2;
-
   }
   .hr_solid5 {
-
     height: 0;
     width: 60%;
     border: 0.5px solid red;
     visibility: visible;
-
   }
   .hr_solid7 {
-
     visibility: hidden;
-
   }
   .hr_solid8 {
-
     visibility: hidden;
-
   }
   .nested_container3 > img {
-
     grid-row: 1;
-
   }
   .nested_container5 > img {
-
     grid-row: 1;
-
   }
   #container4_intro {
-
     grid-row: 2;
-
   }
   .navbar_container {
-
     display: flex;
     justify-content: center;
     height: 80px;
@@ -953,10 +655,8 @@ a:hover {
     width: 100%;
     max-width: 1300px;
     padding: 0;
-
   }
   .navbar_menu {
-
     display: grid;
     position: absolute;
     grid-template-columns: auto;
@@ -967,16 +667,12 @@ a:hover {
     transition: all 0.5s ease;
     height: 50vh;
     z-index: -1;
-
   }
   #navbartitle {
-
     padding-left: 10px;
     font-family: "Playfair Display", Times New Roman;
-
   }
   .navbar_links > a {
-
     visibility: visible;
     color: white;
     text-decoration: none;
@@ -984,18 +680,14 @@ a:hover {
     margin-top: -5em;
     font-family: 'Kumbh Sans',sans-serif;
     z-index: 1000;
-
   }
   #mobile-menu {
-
     position: absolute;
     top: 20%;
     right: 5%;
     transform: translate(5%, 20%);
-
   }
   .main1 {
-
     width: 75%;
     justify-self: center;
     padding: 0;
@@ -1005,6 +697,5 @@ a:hover {
     text-align: center;
     font-family: 'Kumbh Sans',sans-serif;
     z-index: 1001;
-
   }
 }
