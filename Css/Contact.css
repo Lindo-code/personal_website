@@ -1,78 +1,61 @@
 * {
-
   box-sizing: border-box;
-
 }
 body {
-
   width: 100%;
   background-image: url("");
   background-size: cover;
   background-color: black;
   position: absolute;
   margin: 0;
-
 }
 #deco {
-
   font-size: 0.9rem;
   color: #a8e6ce;
   font-weight: normal;
-
 }
 #deco1 {
-
   font-size: 0.8rem;
   color: white;
   text-decoration: none;
-
 }
 #deco2 {
-
   font-size: 1.2rem;
   color: white;
   text-decoration: none;
-
 }
 .hr_solid {
-
   width: 50%;
   border: 0.5px solid black;
 }
 .hr_solid2 {
-
   width: 25%;
   background-color: red;
   border: 0.5px solid red;
 }
 .hr_solid3 {
-
   height: 90%;
   background-color: red;
   border: 0.5px solid red;
 }
 .hr_solid4 {
-
   height: 90%;
   background-color: red;
   border: 0.5px solid red;
 }
 .hr_solid5 {
-
   width: 50%;
   background-color: red;
   border: 1px solid red;
   margin-top: -20px;
 }
 .hr_solid6 {
-
   width: 50%;
   height: 0;
   border: 1px solid red;
   margin-top: 1px;
 }
 .container {
-
   display: grid;
   height: 100%;
   grid-template-rows: auto 1fr auto auto;
@@ -82,58 +65,43 @@ body {
   "l1 m1 r1 r2"
   "l1 m2 r1 r2"
   "m3 m3 m3 m3";
-
 }
 .nested_container1 {
-
   display: grid;
   grid-template-columns: repeat(3,auto);
   justify-items: center;
-
 }
 i > span {
-
   font-weight: normal;
-
 }
 .nested_container1 > p {
-
   margin-top: -5em;
   padding: 1em;
   justify-items: center;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .nested_container2 {
-
   display: grid;
   grid-template-rows: 5, auto;
   justify-items: center;
-
 }
 .nested_container3 {
-
   display: grid;
   grid-template-rows: 6, auto;
   grid-template-columns: repeat(2, auto);
   justify-items: center;
   align-items: center;
-
 }
 .nested_container4 {
-
   display: grid;
   grid-template-columns: repeat(4, auto);
   justify-items: center;
-
 }
 .nested_container5 {
-
   display: grid;
   grid-template-rows: 2, auto;
   justify-items: center;
   justify-content: center;
-
 }
 .navbar_links_mobile {
   display: grid;
@@ -144,10 +112,8 @@ i > span {
   grid-column-gap: 10px;
 }
 #img2 {
-
   width: 280px;
   height: 280px;
-
 }
 #link1 {
   display: grid;
@@ -175,17 +141,14 @@ i > span {
   z-index: 1000;
 }
 .nested_container2 > img {
-
   border: 3px solid red;
   border-radius: 100px;
   width: 130px;
   height: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   background-color: #2f4f4f;
-
 }
 .navbar {
-
   background: #2f4f4f;
   border-bottom: 16px solid;
   border-color: red;
@@ -195,10 +158,8 @@ i > span {
   font-size: 1.2rem;
   top: 0;
   z-index: 998;
-
 }
 .navbar_container {
-
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -207,10 +168,8 @@ i > span {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
-
 }
 #navbartitle {
-
   color: white;
   background-size: 100;
   display: flex;
@@ -218,23 +177,17 @@ i > span {
   text-decoration: none;
   font-family: "Playfair Display", Times New Roman;
   font-size: 2rem;
-
 }
 .navbar_menu {
-
   display: flex;
   align-items: center;
   list-style: none;
   text-align: center;
-
 }
 .navbar_item {
-
   height: 80px;
-
 }
 .navbar_links {
-
   color: white;
   display: flex;
   align-items: center;
@@ -243,60 +196,42 @@ i > span {
   padding: 0 1rem;
   height: 100%;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 #link1:hover {
-
   color: brown;
   font-weight: bold;
-
 }
 #link2:hover {
-
   color: brown;
   font-weight: bold;
-
 }
 #link3:hover {
-
   color: brown;
   font-weight: bold;
-
 }
 .navbar_links > a {
-
   color: transparent;
   visibility: hidden;
-
 }
 .left {
-
   border-left: 30px solid #2f4f4f;
   grid-area: l1;
-
 }
 .right {
-
   border-left: 10px solid red;
   grid-area: r1;
-
 }
 .right2 {
-
   border-left: 16px solid transparent;
   grid-area: r2;
-
 }
 .main0 {
-
   visibility: hidden;
   display: grid;
   grid-area: m0;
   margin-top: -8em;
-
 }
 .main {
-
   grid-area: m1;
   width: 45%;
   justify-self: center;
@@ -307,10 +242,8 @@ i > span {
   text-align: center;
   font-family: 'Kumbh Sans',sans-serif;
   z-index: 1001;
-
 }
 .main2 {
-
   grid-area: m2;
   width: 75%;
   justify-self: center;
@@ -322,66 +255,47 @@ i > span {
   color: #a8e6ce;
   z-index: 1001;
   margin-bottom: 2em;
-
 }
 .footer {
-
   grid-area: m3;
   border-top: 10px solid red;
   background-color: black;
   padding: 2em;
-
 }
 .nested_container1 > a {
-
   color: white;
   font-size: 1.5rem;
   margin-top: -1em;
-
 }
 .nested_container1 > p {
-
   margin-top: -5em;
   padding: 1em;
   justify-items: center;
   font-family: 'Kumbh Sans',sans-serif;
-
 }
 .bold {
-
   color: #ffdead;
   font-weight: bold;
-
 }
 a:hover {
-
   color: brown;
   font-weight: bold;
-
 }
 @media screen and (max-width: 968px) {
-
   .main0 {
-
     visibility: visible;
-
   }
   .nested_container3 {
-
     display: grid;
     grid-template-rows: 6, auto;
     grid-template-columns: repeat(1,auto);
     justify-items: center;
-
   }
   #img2 {
-
     width: 200px;
     height: 200px;
-
   }
   .navbar_container {
-
     display: flex;
     justify-content: center;
     height: 80px;
@@ -389,10 +303,8 @@ a:hover {
     width: 100%;
     max-width: 1300px;
     padding: 0;
-
   }
   .navbar_menu {
-
     display: grid;
     position: absolute;
     grid-template-columns: auto;
@@ -403,16 +315,12 @@ a:hover {
     transition: all 0.5s ease;
     height: 50vh;
     z-index: -1;
-
   }
   #navbartitle {
-
     padding-left: 10px;
     font-family: "Playfair Display", Times New Roman;
-
   }
   .navbar_links > a {
-
     visibility: visible;
     color: white;
     text-decoration: none;
@@ -420,18 +328,14 @@ a:hover {
     margin-top: -5em;
     font-family: 'Kumbh Sans',sans-serif;
     z-index: 1000;
-
   }
   #mobile-menu {
-
     position: absolute;
     top: 20%;
     right: 5%;
     transform: translate(5%, 20%);
-
   }
   .main {
-
     width: 75%;
     justify-self: center;
     padding: 0;
@@ -441,6 +345,5 @@ a:hover {
     text-align: center;
     font-family: 'Kumbh Sans',sans-serif;
     z-index: 1001;
-
   }
 }
