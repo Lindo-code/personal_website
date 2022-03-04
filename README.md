@@ -1,6 +1,6 @@
 # First Personal Website
 
-![Design preview of personal website](./images/sitepreview.jpg)
+![<img src="https://lindo-code.github.io/personal_website/">](](./images/sitepreview.jpg)
 
 ## Welcome! 👋
 
