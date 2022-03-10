@@ -9,6 +9,159 @@ body {
   position: absolute;
   margin: 0;
 }
+.overlay {
+  position: fixed;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+  "aa1 bb1"
+  "aa1 bb2";
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20000;
+  animation-name: open;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+.grey {
+  grid-area: aa1;
+  background-color: black;
+  padding: 6em;
+  border-radius: 5px;
+  border-right: 5em solid #2f4f4f;
+  animation-name: open1;
+  animation-delay: 7s;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.red {
+  grid-area: bb1;
+  background-color: black;
+  padding: 6em;
+  border-radius: 5px;
+  border-bottom: 5em solid red;
+  animation-name: open2;
+  animation-delay: 7s;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.black {
+  grid-area: bb2;
+  border-radius: 5px;
+  background-color: black;
+  border-top: 5em solid #ffe4c4;
+  animation-name: open3;
+  animation-delay: 7s;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.cover {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-left: 35vw;
+  grid-gap: 20px;
+  color: white;
+}
+.typewriter h2 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+  typing 5s steps(30, end),
+  blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: orange
+  }
+}
+@keyframes open1 {
+  0% {
+    margin: 0;
+  }
+  25% {
+    margin-left: -40em;
+    margin-right: 40em;
+  }
+  50% {
+    margin-left: -50em;
+    margin-right: 50em;
+  }
+  75% {
+    margin-left: -60em;
+    margin-right: 60em;
+  }
+  100% {
+    margin-left: -70em;
+    margin-right: 70em;
+  }
+}
+@keyframes open2 {
+  0% {
+    margin: 0;
+  }
+  21% {
+    margin-top: -10em;
+    margin-bottom: 10em;
+  }
+  50% {
+    margin-top: -20em;
+    margin-bottom: 20em;
+  }
+  75% {
+    margin-top: -30em;
+    margin-bottom: 30em;
+  }
+  100% {
+    margin-top: -40em;
+    margin-bottom: 40em;
+  }
+}
+@keyframes open3 {
+  0% {
+    margin: 0;
+  }
+  25% {
+    margin-bottom: -10em;
+    margin-top: 10em;
+  }
+  50% {
+    margin-bottom: -20em;
+    margin-top: 20em;
+  }
+  75% {
+    margin-bottom: -30em;
+    margin-top: 30em;
+  }
+  100% {
+    margin-bottom: -40em;
+    margin-top: 40em;
+  }
+}
 #deco {
   font-size: 0.8rem;
   color: white;
@@ -149,6 +302,11 @@ ol {
 #img3 {
   width: 160px;
   height: 160px;
+}
+#img_cover {
+  width: 15em;
+  height: 15em;
+  margin-left: 30px;
 }
 #ul_left {
   text-align: left;
@@ -411,6 +569,9 @@ a:hover {
     top: 20%;
     right: 5%;
     transform: translate(5%, 20%);
+  }
+  .cover {
+    margin-left: 2em;
   }
   .main1 {
     width: 75%;
