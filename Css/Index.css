@@ -33,7 +33,7 @@ body {
   border-radius: 5px;
   border-right: 5em solid #2f4f4f;
   animation-name: open1;
-  animation-delay: 7s;
+  animation-delay: 10s;
   animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
@@ -45,30 +45,32 @@ body {
   border-radius: 5px;
   border-bottom: 5em solid red;
   animation-name: open2;
-  animation-delay: 7s;
+  animation-delay: 10s;
   animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
 .black {
   grid-area: bb2;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  justify-items: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
   border-radius: 5px;
-  background-color: black;
+  background: black;
   border-top: 5em solid #ffe4c4;
   animation-name: open3;
-  animation-delay: 7s;
+  animation-delay: 10s;
   animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
 .cover {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  margin-left: 35vw;
-  grid-gap: 20px;
   color: white;
 }
 .typewriter h2 {
