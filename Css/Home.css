@@ -22,8 +22,6 @@ body {
   width: 100%;
   height: 100%;
   z-index: 20000;
-  animation-name: open;
-  animation-delay: 6s;
   animation-fill-mode: forwards;
 }
 .grey {
@@ -33,8 +31,8 @@ body {
   border-radius: 5px;
   border-right: 5em solid #2f4f4f;
   animation-name: open1;
-  animation-delay: 7s;
-  animation-duration: 3s;
+  animation-delay: 0.2s;
+  animation-duration: 4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -45,8 +43,8 @@ body {
   border-radius: 5px;
   border-bottom: 5em solid red;
   animation-name: open2;
-  animation-delay: 7s;
-  animation-duration: 3s;
+  animation-delay: 0.2s;
+  animation-duration: 4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -56,13 +54,13 @@ body {
   background-color: black;
   border-top: 5em solid #ffe4c4;
   animation-name: open3;
-  animation-delay: 7s;
-  animation-duration: 3s;
+  animation-delay: 0.2s;
+  animation-duration: 4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
 .cover {
-  display: grid;
+  display: none;
   grid-template-columns: auto;
   justify-content: center;
   align-content: center;
@@ -80,7 +78,7 @@ body {
   margin: 0 auto;
   letter-spacing: .15em;
   animation:
-  typing 5s steps(30, end),
+  typing5ssteps(30, end),
   blink-caret .5s step-end infinite;
 }
 @keyframes typing {
@@ -161,6 +159,11 @@ body {
     margin-bottom: -40em;
     margin-top: 40em;
   }
+}
+#img_cover {
+  width: 15em;
+  height: 15em;
+  margin-left: 30px;
 }
 #deco {
   font-size: 0.8rem;
@@ -302,11 +305,6 @@ ol {
 #img3 {
   width: 160px;
   height: 160px;
-}
-#img_cover {
-  width: 15em;
-  height: 15em;
-  margin-left: 30px;
 }
 #ul_left {
   text-align: left;
