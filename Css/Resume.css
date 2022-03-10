@@ -24,7 +24,7 @@
   border-right: 5em solid #2f4f4f;
   animation-name: open1;
   animation-delay: 0.2s;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -36,7 +36,7 @@
   border-bottom: 5em solid red;
   animation-name: open2;
   animation-delay: 0.2s;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -47,7 +47,7 @@
   border-top: 5em solid #ffe4c4;
   animation-name: open3;
   animation-delay: 0.2s;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
