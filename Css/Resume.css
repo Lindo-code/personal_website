@@ -14,6 +14,8 @@
   width: 100%;
   height: 100%;
   z-index: 20000;
+  animation-name: open;
+  animation-delay: 6s;
   animation-fill-mode: forwards;
 }
 .grey {
@@ -23,8 +25,8 @@
   border-radius: 5px;
   border-right: 5em solid #2f4f4f;
   animation-name: open1;
-  animation-delay: 0.2s;
-  animation-duration: 2s;
+  animation-delay: 7s;
+  animation-duration: 6s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -35,30 +37,32 @@
   border-radius: 5px;
   border-bottom: 5em solid red;
   animation-name: open2;
-  animation-delay: 0.2s;
-  animation-duration: 2s;
+  animation-delay: 7s;
+  animation-duration: 6s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
 .black {
   grid-area: bb2;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  justify-items: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
   border-radius: 5px;
-  background-color: black;
+  background: rgba(0,0,0,1);
   border-top: 5em solid #ffe4c4;
   animation-name: open3;
-  animation-delay: 0.2s;
-  animation-duration: 2s;
+  animation-delay: 7s;
+  animation-duration: 6s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
 .cover {
-  display: none;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  margin-left: 35vw;
-  grid-gap: 20px;
   color: white;
 }
 .typewriter h2 {
@@ -70,7 +74,7 @@
   margin: 0 auto;
   letter-spacing: .15em;
   animation:
-  typing5ssteps(30, end),
+  typing 5s steps(30, end),
   blink-caret .5s step-end infinite;
 }
 @keyframes typing {
@@ -93,63 +97,75 @@
   0% {
     margin: 0;
   }
+  15% {
+    margin-left: -65em;
+    margin-right: 65em;
+  }
   25% {
-    margin-left: -40em;
-    margin-right: 40em;
+    margin-left: -75em;
+    margin-right: 75em;
   }
   50% {
-    margin-left: -50em;
-    margin-right: 50em;
+    margin-left: -85em;
+    margin-right: 85em;
   }
   75% {
-    margin-left: -60em;
-    margin-right: 60em;
+    margin-left: -95em;
+    margin-right: 95em;
   }
   100% {
-    margin-left: -70em;
-    margin-right: 70em;
+    margin-left: -105em;
+    margin-right: 105em;
   }
 }
 @keyframes open2 {
   0% {
     margin: 0;
   }
-  21% {
-    margin-top: -10em;
-    margin-bottom: 10em;
+  15% {
+    margin-top: -35em;
+    margin-bottom: 35em;
+  }
+  25% {
+    margin-top: -45em;
+    margin-bottom: 45em;
   }
   50% {
-    margin-top: -20em;
-    margin-bottom: 20em;
+    margin-top: -55em;
+    margin-bottom: 55em;
   }
   75% {
-    margin-top: -30em;
-    margin-bottom: 30em;
+    margin-top: -65em;
+    margin-bottom: 65em;
   }
   100% {
-    margin-top: -40em;
-    margin-bottom: 40em;
+    margin-top: -75em;
+    margin-bottom: 75em;
   }
 }
 @keyframes open3 {
   0% {
     margin: 0;
   }
+  15% {
+    margin-bottom: -35em;
+    margin-top: 35em;
+  }
   25% {
-    margin-bottom: -10em;
-    margin-top: 10em;
+    margin-bottom: -45em;
+    margin-top: 45em;
   }
   50% {
-    margin-bottom: -20em;
-    margin-top: 20em;
+    margin-bottom: -55em;
+    margin-top: 55em;
   }
   75% {
-    margin-bottom: -30em;
-    margin-top: 30em;
+    margin-bottom: -65em;
+    margin-top: 65em;
   }
   100% {
-    margin-bottom: -40em;
-    margin-top: 40em;
+    margin-bottom: -75em;
+    margin-top: 75em;
   }
 }
 #img_cover {
@@ -443,7 +459,7 @@ i {
   background-color: #2f4f4f;
 }
 .navbar {
-  background: #2f4f4f;
+  background: #2A363B;
   border-bottom: 16px solid red;
   height: 200px;
   display: flex;
@@ -571,13 +587,13 @@ i {
   padding: 1em 1em 0 1em;
   margin-top: -5em;
   border-radius: 10px;
-  background-color: #d87878;
+  background-color: #ff847c;
   text-align: center;
   font-family: 'Kumbh Sans',sans-serif;
   z-index: 1001;
 }
 .titles {
-  width: 85%;
+  width: 90%;
   justify-self: center;
   padding: 0 1em 0 1em;
   border-radius: 10px;
@@ -585,7 +601,7 @@ i {
   z-index: 1001;
 }
 .blocks {
-  width: 85%;
+  width: 90%;
   justify-self: center;
   padding: 1em 1em 0 1em;
   border-radius: 10px;
@@ -668,6 +684,7 @@ i {
 }
 .bold {
   color: #ffdead;
+  filter: brightness(90%);
   font-weight: bold;
 }
 a:hover {
@@ -846,9 +863,6 @@ a:hover {
     top: 20%;
     right: 5%;
     transform: translate(5%, 20%);
-  }
-  .cover {
-    margin-left: 2em;
   }
   .main1 {
     width: 75%;
