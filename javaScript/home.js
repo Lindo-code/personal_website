@@ -1,8 +1,10 @@
 function randomStr() {
   // get greeting
   const str = document.getElementById("greeting");
-  const arr = ["HEY! LET'S TALK :)",
-    "HI! LET'S GET INTOUCH :)"]
+  const arr = ["🔶 FREECODECAMP CERTIFICATIONS",
+    "🔶 LANDED UMUZI LEARNERSHIP",
+    "🔶 VIEW MY HACKERRANK PROFILE",
+    "🔶 VIEW MY CODEWARS PROFILE"]
   const num = getRandomNum(0, arr.length - 1);
   str.innerText = arr[num];
 }
