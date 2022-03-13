@@ -22,9 +22,6 @@ body {
   width: 100%;
   height: 100%;
   z-index: 20000;
-  animation-name: open;
-  animation-delay: 6s;
-  animation-fill-mode: forwards;
 }
 .grey {
   grid-area: aa1;
@@ -102,84 +99,42 @@ body {
   }
 }
 @keyframes open1 {
-  0% {
+  from {
     margin: 0;
   }
-  15% {
-    margin-left: -65em;
-    margin-right: 65em;
-  }
-  25% {
-    margin-left: -75em;
-    margin-right: 75em;
-  }
-  50% {
-    margin-left: -85em;
-    margin-right: 85em;
-  }
-  75% {
-    margin-left: -95em;
-    margin-right: 95em;
-  }
-  100% {
+  to {
     margin-left: -105em;
     margin-right: 105em;
   }
 }
 @keyframes open2 {
-  0% {
+  from {
     margin: 0;
   }
-  15% {
-    margin-top: -35em;
-    margin-bottom: 35em;
-  }
-  25% {
-    margin-top: -45em;
-    margin-bottom: 45em;
-  }
-  50% {
-    margin-top: -55em;
-    margin-bottom: 55em;
-  }
-  75% {
-    margin-top: -65em;
-    margin-bottom: 65em;
-  }
-  100% {
+  to {
     margin-top: -75em;
     margin-bottom: 75em;
   }
 }
 @keyframes open3 {
-  0% {
+  from {
     margin: 0;
   }
-  15% {
-    margin-bottom: -35em;
-    margin-top: 35em;
-  }
-  25% {
-    margin-bottom: -45em;
-    margin-top: 45em;
-  }
-  50% {
-    margin-bottom: -55em;
-    margin-top: 55em;
-  }
-  75% {
-    margin-bottom: -65em;
-    margin-top: 65em;
-  }
-  100% {
+  to {
     margin-bottom: -75em;
     margin-top: 75em;
   }
 }
+.typewriter > h2,h1 {
+  margin-top: 1em;
+}
 #img_cover {
-  width: 15em;
-  height: 15em;
-  margin-left: 30px;
+  width: 13em;
+  height: 13em;
+}
+#gif_cover {
+  width: 10em;
+  height: 10em;
 }
 #deco {
   font-size: 0.8rem;
@@ -511,7 +466,36 @@ a:hover {
   color: brown;
   font-weight: bold;
 }
+#img3:hover {
+  transform: scale(.8);
+}
+@media screen and (min-width: 1025px) {
+  .typewriter > h2,h1 {
+    margin-top: 1em;
+    font-size: 3.6rem;
+  }
+  #gif_cover {
+    width: 10em;
+    height: 10em;
+  }
+  .black img {
+    width: 800px;
+    height: 800px;
+  }
+}
 @media screen and (max-width: 968px) {
+  .typewriter > h2,h1 {
+    margin-top: 1em;
+    font-size: 1rem;
+  }
+  #img_cover {
+    width: 12em;
+    height: 12em;
+  }
+  #gif_cover {
+    width: 10em;
+    height: 10em;
+  }
   .main0 {
     visibility: visible;
   }
