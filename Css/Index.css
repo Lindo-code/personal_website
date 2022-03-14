@@ -471,8 +471,16 @@ a:hover {
   color: brown;
   font-weight: bold;
 }
-#img3:hover {
-  transform: scale(.8);
+#img3:hover, #img3:active {
+  animation: resize_revert .5s ease-out;
+}
+@keyframes resize_revert {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.8);
+  }
 }
 @media screen and (min-width: 1025px) {
   .typewriter > h2,h1 {
