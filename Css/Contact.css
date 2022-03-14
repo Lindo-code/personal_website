@@ -361,7 +361,7 @@ i > span {
 }
 .main {
   grid-area: m1;
-  width: 45%;
+  width: 65%;
   justify-self: center;
   padding: 1em 1em 0 1em;
   margin-top: -5em;
