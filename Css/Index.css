@@ -129,12 +129,12 @@ body {
   margin-top: 1em;
 }
 #img_cover {
-  width: 9.5em;
-  height: 9.5em;
+  width: 8em;
+  height: 8em;
 }
 #gif_cover {
-  width: 9em;
-  height: 9em;
+  width: 7em;
+  height: 7em;
 }
 #deco {
   font-size: 0.8rem;
@@ -502,12 +502,12 @@ a:hover {
     font-size: 1rem;
   }
   #img_cover {
-    width: 9.5em;
-    height: 9.5em;
+    width: 8em;
+    height: 8em;
   }
   #gif_cover {
-    width: 9em;
-    height: 9em;
+    width: 7em;
+    height: 7em;
   }
   .main0 {
     visibility: visible;
