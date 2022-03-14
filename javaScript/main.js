@@ -5,6 +5,7 @@ window.onscroll = function() {
 
 window.onload = function() {
   randomStr();
+  copyright();
 };
 function scrollFunction() {
   //Get the button:
@@ -19,4 +20,11 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+function copyright() {
+  const myCopy = document.getElementById("year");
+  const d = new Date();
+  const currYear = d.getFullYear();
+  const str = `Copyright © ${currYear} Lindo Matabane`;
+  myCopy.innerText = str;
 }
