@@ -129,12 +129,12 @@ body {
   margin-top: 1em;
 }
 #img_cover {
-  width: 8em;
-  height: 8em;
+  width: 9.5em;
+  height: 9.5em;
 }
 #gif_cover {
-  width: 7em;
-  height: 7em;
+  width: 8em;
+  height: 8em;
 }
 #deco {
   font-size: 0.8rem;
@@ -492,8 +492,8 @@ a:hover {
     height: 10em;
   }
   .black img {
-    width: 800px;
-    height: 800px;
+    width: 15em;
+    height: 15em;
   }
 }
 @media screen and (max-width: 968px) {
@@ -502,12 +502,12 @@ a:hover {
     font-size: 1rem;
   }
   #img_cover {
-    width: 8em;
-    height: 8em;
+    width: 11em;
+    height: 11em;
   }
   #gif_cover {
-    width: 7em;
-    height: 7em;
+    width: 10em;
+    height: 10em;
   }
   .main0 {
     visibility: visible;
