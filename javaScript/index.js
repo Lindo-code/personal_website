@@ -1,7 +1,7 @@
 function randomStr() {
   // get greeting
   const str = document.getElementById("greeting");
-  const arr = ["🔶 HELLO! WELCOME TO MY WEBSITE"]
+  const arr = ["🔶 WELCOME TO MY WEBSITE :)"]
   const num = getRandomNum(0, arr.length - 1);
   str.innerText = arr[num];
 }
