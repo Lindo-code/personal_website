@@ -9,6 +9,9 @@ body {
   position: absolute;
   margin: 0;
 }
+h1 {
+  font-family: Monospace;
+}
 .overlay {
   position: fixed;
   display: grid;
