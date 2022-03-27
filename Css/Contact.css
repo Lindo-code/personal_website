@@ -135,6 +135,7 @@ body {
 #gif_cover {
   width: 10em;
   height: 10em;
+  border-radius: 10em;
 }
 #deco {
   font-size: 0.9rem;
@@ -419,6 +420,7 @@ a:hover {
   #gif_cover {
     width: 10em;
     height: 10em;
+    border-radius: 10em;
   }
   .black img {
     width: 800px;
@@ -437,6 +439,7 @@ a:hover {
   #gif_cover {
     width: 10em;
     height: 10em;
+    border-radius: 10em;
   }
   .main0 {
     visibility: visible;
