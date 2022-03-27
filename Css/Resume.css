@@ -123,11 +123,11 @@
 #img_cover {
   width: 13em;
   height: 13em;
-  border-radius: 10em;
 }
 #gif_cover {
   width: 10em;
   height: 10em;
+  border-radius: 10em;
 }
 input[type="checkbox"] {
   margin-left: 10px;
