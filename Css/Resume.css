@@ -123,6 +123,7 @@
 #img_cover {
   width: 13em;
   height: 13em;
+  border-radius: 10em;
 }
 #gif_cover {
   width: 10em;
@@ -665,6 +666,7 @@ a:hover {
   #gif_cover {
     width: 10em;
     height: 10em;
+    border-radius: 10em;
   }
   .black img {
     width: 800px;
@@ -704,6 +706,7 @@ a:hover {
   #gif_cover {
     width: 10em;
     height: 10em;
+    border-radius: 10em;
   }
   .main0 {
     visibility: visible;
