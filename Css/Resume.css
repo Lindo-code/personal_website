@@ -208,7 +208,7 @@ body {
 .hr_solid2 {
   width: 25%;
   background-color: red;
-  border: 0.5px solid red;
+  border: 2px solid red;
 }
 .hr_solid3 {
   width: 0;
@@ -417,8 +417,9 @@ i {
   background-color: #2f4f4f;
 }
 .navbar {
-  background: #2A363B url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/1359430-a69a18.svg');
+  background: #2A363B url('https://raw.githubusercontent.com/Lindo-code/personal_website/201462bd4afa47fad5fc0749898ff227d9048bab/images/Undraw/1987219-a69a18.svg');
   background-size: 13em 13em;
+  filter: brightness(85%);
   border-bottom: 16px solid red;
   height: 200px;
   display: flex;
@@ -556,7 +557,7 @@ i {
   justify-self: center;
   padding: 0 1em 0 1em;
   border-radius: 10px;
-  background-color: black;
+  background-color: transparent;
   z-index: 1001;
 }
 .blocks {
@@ -626,7 +627,7 @@ i {
 }
 #h_color {
   text-align: center;
-  color: #a8e6ce;
+  color: white;
   font-family: 'Kumbh Sans',sans-serif;
 }
 .nested_container2 > ol {
