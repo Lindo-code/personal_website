@@ -71,7 +71,7 @@
   margin: 0 auto;
   letter-spacing: .15em;
   animation:
-  typing5s steps(30, end),
+  typing5ssteps(30, end),
   blink-caret .5s step-end infinite;
 }
 @keyframes typing {
@@ -258,7 +258,7 @@ body {
 .container {
   display: grid;
   height: 100%;
-  background: #1E2839 url('/images/Undraw/371649-ff5722.svg');
+  background: #1E2839 url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/371649-ff5722.svg');
   background-size: 10em 10em;
   grid-template-rows: auto;
   grid-template-columns: auto;
@@ -417,7 +417,7 @@ i {
   background-color: #2f4f4f;
 }
 .navbar {
-  background: #2f4f4f url('/images/Undraw/1359430-a69a18.svg');
+  background: #2f4f4f url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/1359430-a69a18.svg');
   background-size: 13em 13em;
   border-bottom: 16px solid red;
   height: 200px;
