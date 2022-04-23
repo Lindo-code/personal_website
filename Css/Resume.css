@@ -71,7 +71,7 @@
   margin: 0 auto;
   letter-spacing: .15em;
   animation:
-  typing 5s steps(30, end),
+  typing5s steps(30, end),
   blink-caret .5s step-end infinite;
 }
 @keyframes typing {
@@ -258,6 +258,8 @@ body {
 .container {
   display: grid;
   height: 100%;
+  background: #1E2839 url('/images/Undraw/371649-ff5722.svg');
+  background-size: 10em 10em;
   grid-template-rows: auto;
   grid-template-columns: auto;
   grid-template-areas:
@@ -415,7 +417,8 @@ i {
   background-color: #2f4f4f;
 }
 .navbar {
-  background: #2A363B;
+  background: #2f4f4f url('/images/Undraw/1359430-a69a18.svg');
+  background-size: 13em 13em;
   border-bottom: 16px solid red;
   height: 200px;
   display: flex;
@@ -648,7 +651,7 @@ a:hover {
   font-weight: bold;
 }
 #img0:hover, #img0:active {
-  animation: resize_revert .5s ease-out;
+  animation: resize_revert.5s ease-out;
 }
 @keyframes resize_revert {
   from {
