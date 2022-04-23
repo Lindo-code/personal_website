@@ -417,7 +417,7 @@ i {
   background-color: #2f4f4f;
 }
 .navbar {
-  background: #2f4f4f url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/1359430-a69a18.svg');
+  background: #2A363B url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/1359430-a69a18.svg');
   background-size: 13em 13em;
   border-bottom: 16px solid red;
   height: 200px;
@@ -522,7 +522,7 @@ i {
   font-weight: bold;
 }
 .left {
-  border-left: 30px solid #2f4f4f;
+  border-left: 30px solid transparent;
   grid-area: l1;
 }
 .right {
