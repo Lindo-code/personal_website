@@ -500,6 +500,15 @@ a:hover {
     max-width: 10000px;
     padding: 0;
   }
+  .navbartitle {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: "Playfair Display", Times New Roman;
+    font-size: 2rem;
+  }
 }
 @media screen and (max-width: 968px) {
   .typewriter > h2,h1 {
@@ -555,7 +564,7 @@ a:hover {
   }
   .navbar_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 80px;
     z-index: 1;
     width: 100%;
@@ -575,7 +584,7 @@ a:hover {
     z-index: 1666;
   }
   #navbartitle {
-    padding-left: 10px;
+    padding-left: 0;
     font-family: "Playfair Display", Times New Roman;
   }
   .navbar_links > a {
