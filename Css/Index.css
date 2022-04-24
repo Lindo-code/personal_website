@@ -82,23 +82,23 @@ h1 {
   margin: 0 auto;
   letter-spacing: .15em;
   animation:
-  typing5ssteps(30, end),
+  typing 5s steps(30, end),
   blink-caret .5s step-end infinite;
 }
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
   to {
-    width: 100%
+    width: 100%;
   }
 }
 @keyframes blink-caret {
   from, to {
-    border-color: transparent
+    border-color: transparent;
   }
   50% {
-    border-color: orange
+    border-color: orange;
   }
 }
 @keyframes open1 {
@@ -538,11 +538,13 @@ a:hover {
   }
   .hr_solid {
     width: 50%;
+    background-color: red;
     border: 0.5px solid red;
   }
   .hr_solid3 {
     height: 0;
     width: 70%;
+    background-color: red;
     border: 0.5px solid red;
   }
   .hr_solid4 {

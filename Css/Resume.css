@@ -71,23 +71,23 @@
   margin: 0 auto;
   letter-spacing: .15em;
   animation:
-  typing5ssteps(30, end),
+  typing 5s steps(30, end),
   blink-caret .5s step-end infinite;
 }
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
   to {
-    width: 100%
+    width: 100%;
   }
 }
 @keyframes blink-caret {
   from, to {
-    border-color: transparent
+    border-color: transparent;
   }
   50% {
-    border-color: orange
+    border-color: orange;
   }
 }
 @keyframes open1 {
@@ -231,6 +231,7 @@ body {
 .hr_solid6 {
   width: 70%;
   height: 0;
+  background-color: red;
   border: 0.6px solid red;
 }
 .hr_solid7 {
@@ -252,6 +253,7 @@ body {
 .hr_solid10 {
   width: 50%;
   height: 0;
+  background-color: red;
   border: 1px solid red;
   margin-top: 1px;
 }
@@ -782,6 +784,7 @@ a:hover {
   .hr_solid3 {
     height: 0;
     width: 60%;
+    background-color: red;
     border: 0.5px solid red;
     visibility: visible;
   }
@@ -803,6 +806,7 @@ a:hover {
   .hr_solid5 {
     height: 0;
     width: 60%;
+    background-color: red;
     border: 0.5px solid red;
     visibility: visible;
   }
