@@ -500,7 +500,7 @@ a:hover {
     max-width: 10000px;
     padding: 0;
   }
-  .navbartitle {
+  #navbartitle {
     color: white;
     display: flex;
     align-items: center;
