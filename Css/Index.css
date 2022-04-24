@@ -1,11 +1,10 @@
 * {
   box-sizing: border-box;
 }
+.item {
+  border: 4px solid red;
+}
 body {
-  width: 100%;
-  background-image: url("");
-  background-size: cover;
-  background-color: black;
   position: absolute;
   margin: 0;
 }
@@ -177,7 +176,7 @@ h1 {
   width: 50%;
   background-color: red;
   border: 1px solid red;
-  margin-top: -20px;
+  margin-top: -25px;
 }
 .hr_solid7 {
   width: 50%;
@@ -318,14 +317,14 @@ ol {
   z-index: 1000;
 }
 .navbar {
+  display: flex;
+  justify-content: space-between;
   background: #2A363B url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/1865324-c9a61a.svg');
   background-size: 13em 13em;
   filter: brightness(85%);
   border-bottom: 16px solid;
   border-color: red;
   height: 200px;
-  display: flex;
-  justify-content: center;
   font-size: 1.2rem;
   top: 0;
   z-index: 998;
@@ -335,10 +334,10 @@ ol {
   justify-content: space-between;
   height: 80px;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
   max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 50px;
+  xmargin: 0 auto;
+  padding-left: 10px;
 }
 #navbartitle {
   color: white;
@@ -401,10 +400,6 @@ ol {
   color: brown;
   font-weight: bold;
 }
-.navbar_links > a {
-  color: white;
-  visibility: hidden;
-}
 .left {
   border-left: 30px solid transparent;
   grid-area: l1;
@@ -416,12 +411,6 @@ ol {
 .right2 {
   border-left: 16px solid transparent;
   grid-area: r2;
-}
-.main0 {
-  visibility: hidden;
-  display: grid;
-  grid-area: m0;
-  margin-top: -8em;
 }
 .main1 {
   grid-area: m1;
@@ -516,9 +505,6 @@ a:hover {
     width: 10em;
     height: 10em;
   }*/
-  .main0 {
-    visibility: visible;
-  }
   .nested_container3 {
     display: grid;
     grid-template-rows: 6, auto;
@@ -552,25 +538,31 @@ a:hover {
     height: 0;
     border: 0 solid transparent;
   }
+  .hr_solid6 {
+    width: 50%;
+    background-color: red;
+    border: 1px solid red;
+    margin-top: -30px;
+  }
   .navbar_container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 80px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 0;
+    padding-left: 0;
   }
   .navbar_menu {
-    display: grid;
+    display: flex;
     position: absolute;
-    grid-template-columns: auto;
-    margin-top: -33.7em;
+    justify-content: center;
+    font-size: 1.1rem;;
+    margin: 2em 0 0 -1.2em;
     width: 100%;
-    top: -1000px;
     opacity: 1;
     transition: all 0.5s ease;
-    height: 50vh;
+    xheight: 50vh;
     z-index: 1666;
   }
   #navbartitle {
@@ -578,18 +570,11 @@ a:hover {
     font-family: "Playfair Display", Times New Roman;
   }
   .navbar_links > a {
-    visibility: visible;
     text-decoration: none;
     padding: 0.7em;
     margin-top: -5em;
     font-family: 'Kumbh Sans',sans-serif;
     z-index: 18000;
-  }
-  #mobile-menu {
-    position: absolute;
-    top: 20%;
-    right: 5%;
-    transform: translate(5%, 20%);
   }
   .main1 {
     width: 75%;
