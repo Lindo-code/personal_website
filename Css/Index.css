@@ -134,10 +134,10 @@ h1 {
   width: 13em;
   height: 13em;
 }
-#gif_cover {
+/*#gif_cover {
   width: 10em;
   height: 10em;
-}
+}*/
 #deco {
   font-size: 0.8rem;
   color: white;
@@ -242,14 +242,6 @@ i > span {
   grid-template-rows: 2, auto;
   justify-items: center;
   justify-content: center;
-}
-.navbar_links_mobile {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto;
-  grid-template-areas:
-  "l1 l2 l3";
-  grid-column-gap: 10px;
 }
 p {
   text-align: left;
