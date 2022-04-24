@@ -444,6 +444,15 @@ a:hover {
     width: 15em;
     height: 15em;
   }
+  .navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100vw;
+    max-width: 10000px;
+    padding: 0;
+  }
 }
 @media screen and (max-width: 968px) {
   .typewriter > h2,h1 {
@@ -499,7 +508,7 @@ a:hover {
   }
   .navbar_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 80px;
     z-index: 1;
     width: 100%;
