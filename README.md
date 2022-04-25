@@ -10,11 +10,11 @@
 
 ![Resume Page](./images/sitepreview1.jpg "Resume Page")
 
-![Contact Page](./images/sitepreview2.jpg "Contact Page")
+![Contact Page](./images/sitepreview2.jpg "Cover Page")
 
 ## Link
 
-- [Website URL](https://lindo-code.github.io/personal_website/ "View Website")
+- [Personl Website](https://lindo-code.github.io/personal_website/ "View Website")
 
 ## Built With
 
@@ -33,7 +33,7 @@
 **Lindo Matabane**
 
 - [Profile](https://github.com/Lindo-code "Rohit jain")
-- [Email](mailto:sdrowvieli1@gmail.com?subject=Hi "Hi!")
+- [E-mail](mailto:sdrowvieli1@gmail.com?subject=Hi "Hi!")
 - [Website](https://lindo-code.github.io/personal_website/ "Welcome")
 
 ## 🤝 Support
