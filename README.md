@@ -1,16 +1,8 @@
 <h1 align="center">PERSONAL WEBSITE</h1>
 
-<h2 align="center">WELCOME! 👋</H2>
-
 <p align="center">
   A responsive multiple page website to showcase my portfolio
 </p>
-
-## Links
-
-- [Repo](https://github.com/Rohit19060/personal_website/ "Personal Website Repo")
-
-- [Website URL](https://lindo-code.github.io/personal_website/ "View Website")
 
 ## Screenshots
 
@@ -19,6 +11,12 @@
 ![Resume Page](/screenshots/2.png "Resume Page")
 
 ![Contact Page](/screenshots/3.png "Contact Page")
+
+## Links
+
+- [Repo](https://github.com/Rohit19060/personal_website/ "Personal Website Repo")
+
+- [Website URL](https://lindo-code.github.io/personal_website/ "View Website")
 
 ## Built With
 
