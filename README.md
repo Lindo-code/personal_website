@@ -32,7 +32,7 @@
 
 **Lindo Matabane**
 
-- [Profile](https://github.com/Lindo-code "Rohit jain")
+- [Profile](https://github.com/Lindo-code "Lindo Matabane")
 - [E-mail](mailto:sdrowvieli1@gmail.com?subject=Hi "Hi!")
 - [Website](https://lindo-code.github.io/personal_website/ "Welcome")
 
