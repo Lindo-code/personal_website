@@ -8,22 +8,21 @@
 
 ![Home Page](./images/sitepreview.jpg "Home Page")
 
-![Resume Page](/screenshots/2.png "Resume Page")
+![Resume Page](./images/sitepreview1.jpg "Resume Page")
 
-![Contact Page](/screenshots/3.png "Contact Page")
+![Contact Page](./images/sitepreview2.jpg "Contact Page")
 
-## Links
-
-- [Repo](https://github.com/Rohit19060/personal_website/ "Personal Website Repo")
+## Link
 
 - [Website URL](https://lindo-code.github.io/personal_website/ "View Website")
 
 ## Built With
 
 - JavaScript
-- NPM
 - HTML
 - CSS
+- CSS GRID
+- FLEXBOX
 
 ## Future Updates
 
