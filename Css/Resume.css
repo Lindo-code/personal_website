@@ -129,6 +129,10 @@
   height: 10em;
   border-radius: 10em;
 }*/
+#container4_intro {
+  color: hsl(198, 62%, 26%);
+  padding: 1em;
+}
 input[type="checkbox"] {
   margin-left: 10px;
   display: none;
@@ -177,6 +181,11 @@ body {
   background-color: black;
   position: absolute;
   margin: 0;
+}
+#deco0 {
+  font-size: 1.1rem;
+  font-family: "Fraunces";
+  color: hsl(168, 34%, 41%);
 }
 #deco {
   font-size: 0.9rem;
@@ -343,6 +352,7 @@ i {
   justify-items: center;
   align-items: center;
   font-family: 'Kumbh Sans',sans-serif;
+  padding: 2em 12vw 2em 12vw;
   grid-column-gap: 20px;
 }
 .nested_container6 {
@@ -686,6 +696,7 @@ a:hover {
     grid-template-rows: 6, auto;
     grid-template-columns: repeat(1,auto);
     justify-items: center;
+    padding: 0;
     grid-row-gap: 10px;
   }
   .hr_solid4 {
@@ -745,6 +756,7 @@ a:hover {
     border-top: 20px solid transparent;
   }
   .hr_solid3 {
+    display: none;
     height: 0;
     width: 60%;
     background-color: red;
