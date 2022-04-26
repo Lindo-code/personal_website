@@ -347,12 +347,11 @@ i {
 }
 .nested_container5 {
   display: grid;
-  grid-template-rows: 6, auto;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
   justify-items: center;
-  align-items: center;
+  align-items: start;
   font-family: 'Kumbh Sans',sans-serif;
-  padding: 2em 12vw 2em 12vw;
+  padding: 0 1vw 0 1vw;
   grid-column-gap: 20px;
 }
 .nested_container6 {
@@ -693,8 +692,7 @@ a:hover {
   }
   .nested_container5 {
     display: grid;
-    grid-template-rows: 6, auto;
-    grid-template-columns: repeat(1,auto);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     justify-items: center;
     padding: 0;
     grid-row-gap: 10px;
