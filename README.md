@@ -14,7 +14,7 @@
 
 ## Link
 
-- [Personl Website](https://lindo-code.github.io/personal_website/ "View Website")
+- [Personal Website](https://lindo-code.github.io/personal_website/ "View Website")
 
 ## Built With
 
