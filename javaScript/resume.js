@@ -15,6 +15,6 @@ function getRandomNum(min, max) {
 }
 function delay(url) {
   setTimeout(function() {
-    window.location = url;
+    window.open(url, "_blank")
   }, 500);
 }
