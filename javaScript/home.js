@@ -13,8 +13,3 @@ function getRandomNum(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-function delay(url) {
-  setTimeout(function() {
-    window.open(url, "_blank")
-  }, 300);
-}
