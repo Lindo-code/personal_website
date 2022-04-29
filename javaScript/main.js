@@ -28,3 +28,9 @@ function copyright() {
   const str = `Copyright © ${currYear} Lindo Matabane`;
   myCopy.innerText = str;
 }
+
+function delay(url) {
+  setTimeout(function() {
+    window.open(url, "_blank") = url;
+  }, 1000);
+}
