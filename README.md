@@ -8,13 +8,13 @@
 
 ![Home Page](./images/sitepreview.jpg "Home Page")
 
-![Resume Page](./images/sitepreview1.jpg "Resume Page")
+![Portfolio Page](./images/sitepreview1.jpg "Portfolio Page")
 
 ![Contact Page](./images/sitepreview2.jpg "Cover Page")
 
 ## Link
 
-- [Personal Website](https://lindo-code.github.io/personal_website/ "View Website")
+- [Personal Website](https://lindo-code.tk/ "View Website")
 
 ## Built With
 
@@ -34,7 +34,7 @@
 
 - [Profile](https://github.com/Lindo-code "Lindo Matabane")
 - [E-mail](mailto:sdrowvieli1@gmail.com?subject=Hi "Hi!")
-- [Website](https://lindo-code.github.io/personal_website/ "Welcome")
+- [Website](https://lindo-code.tk/ "Welcome")
 
 ## 🤝 Support
 
