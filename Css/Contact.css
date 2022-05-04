@@ -188,7 +188,7 @@ body {
 .container {
   display: grid;
   height: 100%;
-  background: #1E2839 url('https://raw.githubusercontent.com/Lindo-code/personal_website/201462bd4afa47fad5fc0749898ff227d9048bab/images/Undraw/432498-ff5722.svg');
+  background: #1E2839 url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/1865324-c9a61a.svg');
   background-size: 13em 13em;
   grid-template-rows: auto 1fr auto auto;
   grid-template-columns: auto 1fr auto auto;
@@ -250,7 +250,7 @@ i > span {
 .navbar {
   display: flex;
   justify-content: center;
-  background: #2A363B url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/432496-a69a18.svg');
+  background: #2A363B url('');
   background-size: 13em 13em;
   border-bottom: 16px solid;
   border-color: red;
