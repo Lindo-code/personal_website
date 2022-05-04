@@ -188,7 +188,7 @@ h1 {
 .container {
   display: grid;
   height: 100%;
-  background: #1E2839 url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/367946-c91a1a.svg');
+  background: #1E2839 url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/1865324-c9a61a.svg');
   background-size: 13em 13em;
   grid-template-rows: auto 1fr auto auto;
   grid-template-columns: auto 1fr auto auto;
@@ -319,9 +319,8 @@ ol {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background: #2A363B url('https://raw.githubusercontent.com/Lindo-code/personal_website/5c3bc932311b9042fb82b27fb2386a7ef7a94372/images/Undraw/1865324-c9a61a.svg');
+  background: #2A363B url('');
   background-size: 13em 13em;
-  filter: brightness(85%);
   border-bottom: 16px solid;
   border-color: red;
   height: 200px;
@@ -419,7 +418,7 @@ ol {
   padding: 1em 1em 0 1em;
   margin-top: -6em;
   border-radius: 10px;
-  background-color: #ff847c;
+  background-color: #d87878;
   text-align: center;
   font-family: 'Kumbh Sans',sans-serif;
   z-index: 1002;
@@ -576,11 +575,11 @@ a:hover {
     position: absolute;
     justify-content: center;
     font-size: 1.1rem;;
-    margin: 2em 0 0 -1.2em;
+    margin: 0;
+    padding: 50px;
     width: 100%;
     opacity: 1;
     transition: all 0.5s ease;
-    xheight: 50vh;
     z-index: 1666;
   }
   #navbartitle {
@@ -595,7 +594,7 @@ a:hover {
     z-index: 18000;
   }
   .main1 {
-    width: 75%;
+    width: 85%;
     justify-self: center;
     padding: 0;
     margin-top: -5em;
