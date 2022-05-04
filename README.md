@@ -14,7 +14,7 @@
 
 ## Link
 
-- [Personal Website](https://lindo-code.tk/ "View Website")
+- [Personal Website](https://lindo-code.github.io/personal_website/ "View Website")
 
 ## Built With
 
@@ -34,7 +34,7 @@
 
 - [Profile](https://github.com/Lindo-code "Lindo Matabane")
 - [E-mail](mailto:sdrowvieli1@gmail.com?subject=Hi "Hi!")
-- [Website](https://lindo-code.tk/ "Welcome")
+- [Website](https://lindo-code.github.io/personal_website "Welcome")
 
 ## 🤝 Support
 
