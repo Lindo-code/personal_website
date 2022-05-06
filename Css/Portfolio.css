@@ -22,7 +22,7 @@
   border-radius: 5px;
   border-right: 5em solid #2f4f4f;
   animation-name: open1;
-  animation-delay: 5s;
+  animation-delay: 6s;
   animation-duration: 4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
@@ -34,7 +34,7 @@
   border-radius: 5px;
   border-bottom: 5em solid red;
   animation-name: open2;
-  animation-delay: 5s;
+  animation-delay: 6s;
   animation-duration: 4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
@@ -51,7 +51,8 @@
   align-items: center;
   text-align: center;
   border-radius: 5px;
-  background: rgba(0,0,0,1) url('/images/Undraw/version_control.svg');
+  background: rgba(0,0,0,0.3) url('https://raw.githubusercontent.com/Lindo-code/personal_website/d8041871f6a8cd95f462b94a76bdf5e5962f692f/images/Undraw/code_thinking.svg');
+  background-blend-mode: darken;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 75% 75%;
@@ -122,6 +123,8 @@
   to {
     margin-bottom: -75em;
     margin-top: 75em;
+    background-blend-mode: 0;
+    background-color: rgba(0,0,0,1);
   }
 }
 .typewriter > h2,h1 {
