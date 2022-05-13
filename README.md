@@ -6,9 +6,9 @@
 
 ## Screenshots
 
-![Desktop](./images/sitepreview.jpg "Home Page")
+![Cover Page](./images/sitepreview2.jpg "Cover Page")
 
-![mobile](./images/sitepreview1.jpg "Portfolio Page")
+![Home](./images/sitepreview.jpg "Home Page")
 
 ## Link
 
