@@ -6,11 +6,9 @@
 
 ## Screenshots
 
-![Home Page](./images/sitepreview.jpg "Home Page")
+![Desktop](./images/sitepreview.jpg "Home Page")
 
-![Portfolio Page](./images/sitepreview1.jpg "Portfolio Page")
-
-![Contact Page](./images/sitepreview2.jpg "Cover Page")
+![mobile](./images/sitepreview1.jpg "Portfolio Page")
 
 ## Link
 

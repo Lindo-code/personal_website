@@ -407,7 +407,7 @@ ol {
 }
 .main2 {
   grid-area: m3;
-  width: 90%;
+  width: 95%;
   justify-self: center;
   padding: 1em 1em 0 1em;
   margin-bottom: 2em;
@@ -587,7 +587,7 @@ a:hover {
     z-index: 18000;
   }
   .main1 {
-    width: 85%;
+    width: 80%;
     justify-self: center;
     padding: 0;
     margin-top: -5em;
