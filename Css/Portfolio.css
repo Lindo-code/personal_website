@@ -434,8 +434,8 @@ i {
   justify-content: center;
   background: #2A363B url('');
   background-size: 13em 13em;
-  border-bottom: 16px solid red;
-  height: 200px;
+  border-bottom: 1em solid red;
+  height: 13em;
   font-size: 1.2rem;
   top: 0;
   z-index: 998;
@@ -502,7 +502,7 @@ i {
   grid-area: l1;
 }
 .right {
-  border-left: 10px solid red;
+  border-left: 1em solid red;
   grid-area: r1;
 }
 .right2 {
@@ -594,6 +594,7 @@ i {
   text-align: center;
   color: white;
   font-family: 'Kumbh Sans',sans-serif;
+  font-size: 1.5rem;
 }
 .nested_container2 > ol {
   justify-items: left;
@@ -630,7 +631,7 @@ a:hover {
 @media screen and (min-width: 1025px) {
   .typewriter > h2,h1 {
     margin-top: 1em;
-    font-size: 3.6rem;
+    font-size: 2rem;
   }
   /*#gif_cover {
     width: 10em;
@@ -638,8 +639,22 @@ a:hover {
     border-radius: 10em;
   }*/
   .black img {
-    width: 800px;
-    height: 800px;
+    background-size: 50% 50%;
+  }
+  .nested_container2 > #img1 {
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+  }
+  #h_color {
+    font-size: 1.5rem;
+  }
+  .blocks {
+    padding: 3em 8em 3em 8em;
+  }
+  .main1 {
+    width: 70%;
+    margin-top: -8em;
   }
   .main2 {
     width: 95%;
@@ -843,7 +858,7 @@ a:hover {
     width: 80%;
     justify-self: center;
     padding: 0;
-    margin-top: -5em;
+    margin-top: -7em;
     border-radius: 10px;
     background-color: #ff847c;
     text-align: center;
